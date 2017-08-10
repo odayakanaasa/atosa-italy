@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <!-- Visualization Tags -->
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+  <meta http-equiv="cache-control" content="public">
+
+  <!-- Base SEO Meta Tags -->
+  <title>{{ page.title }}</title>
+  <meta content="{{ page.description }}" name="description">
+  <meta name="keyword" content="">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+
+  <!-- Share Tags -->
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Atosa Italy">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="/assets/img/atosa_logo_icon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Atosa Italy">
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="images/share.png">
+  <meta property="og:url" content="index.html">
+
+
+  <!-- Author & Copyright -->
+  <meta name="author" content="Tommaso Negri">
+  <meta name="copyright" content="&copy; 2017 Atosa Italy">
+
+  <!-- Favicon & Mobile Icons -->
+  <link rel="icon" sizes="192x192" href="/assets/img/atosa_logo_icon.png">
+  <link rel="shortcut icon" href="/assets/img/atosa_logo_icon.png">
+  <link rel="apple-touch-icon" href="images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- 404 Page Redirect -->
+  {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="8; url=/">
+  {% endif %}
+
+</head>
+<body lang="it">
+
+{{content}}
+
+  <script src="https://use.fontawesome.com/24f3f62327.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+*
+  z-index: 900
+
+body
+  position: relative
+
+h1
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+  font-size: 36px
+  line-height: 36px
+  letter-spacing: 0.1rem
+  margin: 0
+  // margin-bottom: 10px
+  color: $color-black-alternative
+  -webkit-font-smoothing: antialiased
+
+h2
+  font-family: 'Roboto Mono', monospace
+  font-weight: 400
+  font-size: 24px
+  line-height: 28px
+  letter-spacing: 0.1rem
+  margin: 0
+  // margin-bottom: 10px
+  color: $color-black-alternative
+  -webkit-font-smoothing: antialiased
+
+h3
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+  font-size: 24px
+  letter-spacing: 0.05rem
+  margin: 18px 0
+  color: $color-black-alternative
+  -webkit-font-smoothing: antialiased
+
+h5
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+  font-size: 16px
+  letter-spacing: 0.05rem
+  margin: 8px 0
+  color: $color-black-alternative
+  -webkit-font-smoothing: antialiased
+
+p
+  font-family: 'Roboto', sans-serif
+  font-size: 18px
+  line-height: 24px
+  color: $color-black-alternative
+  margin: 0
+  -webkit-font-smoothing: antialiased
+
+a
+  font-family: 'Roboto', sans-serif
+  color: $color-link
+  transition: $transition-all
+  text-decoration: none
+  -webkit-font-smoothing: antialiased
+
+  &:hover
+    color: $color-link-hover!important
+    cursor: pointer
+
+.read-more
+  font-family: 'Roboto Mono', monospace
+  font-weight: 400
+  font-size: 16px
+  margin-top: 20px
+
+  a
+    color: $color-grey-light
+
+.section-title
+  max-width: 1216px
+  margin: 30px auto
+  // background-color: pink
+
+  a
+    font-size: 22px
+    font-weight: 500
+    color: $color-black-alternative
+    text-transform: uppercase
+    letter-spacing: 0.15rem
+
+.section-divider
+  max-width: 1216px
+  height: 4px
+  background-color: $color-red-atosa
+  margin: 0 auto
+
+.grow
+  transition: all .5s ease-in-out
+.grow:hover
+  transform: scale(1.12)
+
+
+@media (max-width: $ipad-landscape)
+  .grow
+    transition: none
+
+  .grow:hover
+    transform: none

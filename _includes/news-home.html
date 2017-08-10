@@ -1,0 +1,18 @@
+<div class="news-home scroll-fixer-controll">
+  <div class="news-home-container">
+    {% for new in site.news %}
+      {% if forloop.last %}
+      <div class="post-image" style="background-image: url( {{ new.img }} )"></div>
+      <div class="post-content">
+        <h1>{{ new.title }}</h1>
+        <h3>{{ new.subtitle }}</h3>
+        <p>{{ new.excerpt }}</p>
+      </div>
+      <div class="read-more"><a href="{{ new.url }}">Read more</a></div>
+      {% else %}
+        {% continue %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="section-divider"></div>

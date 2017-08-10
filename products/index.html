@@ -1,0 +1,24 @@
+---
+layout: default
+title: Products
+---
+{% include navbar.html %}
+
+<div class="products-home scroll-fixer-controll">
+  <div class="section-title"><a href="/products/">products</a></div>
+  <div class="products-home-container">
+    {% for category in site.data.settings.categories %}
+    <div class="products-home-card">
+      <a href="{{ category.url }}">
+        <div class="card-content-container">
+          <div class="card-image"><img src="{{ category.img }}" alt=""></div>
+          <h2>{{ category.name }}</h2>
+          <p>{{ category.description }}</p>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% include footer.html %}

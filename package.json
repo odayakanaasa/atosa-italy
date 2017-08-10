@@ -1,0 +1,21 @@
+{
+  "name": "atosa-italia",
+  "version": "0.1.0",
+  "description": "atosa-italy",
+  "author": "Tommaso Negri",
+  "repository": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-svgmin": "^4.0.0",
+    "jit-grunt": "^0.10.0"
+  }
+}

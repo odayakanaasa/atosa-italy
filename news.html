@@ -1,0 +1,28 @@
+---
+layout: default
+title: Atosa Italy - News
+permalink: /news/
+---
+
+{% include navbar.html %}
+
+<div class="section-title scroll-fixer-controll"><a href="/news/">latest news and updates</a></div>
+<div class="news">
+  <div class="news-container">
+    {% for new in site.news reversed %}
+    <a href="{{ new.url }}"><div class="post-container">
+      <div class="post-date">{{ new.date | date_to_string }}</div>
+      <div class="post-content-container">
+        <div class="post-image" style="background-image: url( {{ new.img }} )"></div>
+        <div class="post-content">
+          <h1>{{ new.title }}</h1>
+          <h3>{{ new.subtitle }}</h3>
+          <p>{{ new.excerpt }}</p>
+        </div>
+      </div>
+    </div></a>
+    {% endfor %}
+  </div>
+</div>
+
+{% include footer.html %}
