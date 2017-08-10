@@ -4,63 +4,63 @@ categories:
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/EPF3485.jpg"
   name: Armadi Refrigerati TN
-  url: 
+  url: /products/armadi-refrigerati-tn/
 - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/mcf8605.jpg"
   name: Armadi Refrigerati BT
-  url: 
+  url: /products/armadi-refrigerati-bt/
 - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
   name: Vetrine Refrigerate
-  url: 
+  url: /products/vetrine-refrigerate/
 - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/EPF3485.jpg"
   name: Banchi Pizza
-  url: 
+  url: /products/banchi-pizza/
 - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/mcf8605.jpg"
   name: Saladettes
-  url: 
+  url: /products/saladettes/
 - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
   name: Catering Equipment
-  url: 
+  url: /products/catering-equipment/
 - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
   name: Teglie Gastronorm
-  url: 
+  url: /products/teglie-gastronorm/
 - description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
   name: Vetrine
-  url: 
+  url: /products/vetrine/
 home-specials:
 - card-color: lightcoral
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightgreen
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightpink
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightblue
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 menus:
 - name: news
   url: "/news/"

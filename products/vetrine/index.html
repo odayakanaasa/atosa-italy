@@ -1,0 +1,29 @@
+---
+layout: default
+title: Atosa Italy - Vetrine
+permalink: /products/vetrine/
+description:
+---
+{% include navbar.html %}
+
+<div class="product scroll-fixer-controll">
+  <div class="section-title"><a href="/products/vetrine/">vetrine</a></div>
+  <div class="product-container">
+    {% for product in site.products %}
+      {% if product.family == 'Vetrine' %}
+        <div class="product-card">
+          <a href="{{ product.url }}">
+            <div class="product-content-container">
+              <div class="card-image"><img src="{{ product.img }}" alt=""></div>
+              <h2>{{ product.name }}</h2>
+              <p>{{ product.family }}</p>
+              <p>{{ product.code }}</p>
+            </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% include footer.html %}

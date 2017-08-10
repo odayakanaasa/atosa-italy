@@ -47,3 +47,5 @@ exclude:
   - node_modules
   - gruntfile.js
   - package.json
+  - LICENSE
+  - README.md
