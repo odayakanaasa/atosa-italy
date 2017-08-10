@@ -1,66 +1,66 @@
 ---
 categories:
-- name: Armadi Refrigerati TN
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/EPF3485.jpg"
+  name: Armadi Refrigerati TN
   url: "/products/armadi-refrigerati-tn/"
-- name: Armadi Refrigerati BT
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/mcf8605.jpg"
+  name: Armadi Refrigerati BT
   url: "/products/armadi-refrigerati-bt/"
-- name: Vetrine Refrigerate
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
+  name: Vetrine Refrigerate
   url: "/products/vetrine-refrigerate/"
-- name: Banchi Pizza
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/EPF3485.jpg"
+  name: Banchi Pizza
   url: "/products/banchi-pizza/"
-- name: Saladettes
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/mcf8605.jpg"
+  name: Saladettes
   url: "/products/saladettes/"
-- name: Catering Equipment
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
+  name: Catering Equipment
   url: "/products/catering-equipment/"
-- name: Teglie Gastronorm
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
+  name: Teglie Gastronorm
   url: "/products/teglie-gastronorm/"
-- name: Vetrine
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   img: "/assets/img/products/esl3831-34.jpg"
+  name: Vetrine
   url: "/products/vetrine/"
 home-specials:
-- name: Prova
-  card-color: lightcoral
+- card-color: lightcoral
   description: Provoinasdjw
   icon: Provaprova
-  url:
-- name: Prova
-  card-color: lightgreen
+  name: Prova
+  url: 
+- card-color: lightgreen
   description: Provoinasdjw
   icon: Provaprova
-  url:
-- name: Prova
-  card-color: lightpink
+  name: Prova
+  url: 
+- card-color: lightpink
   description: Provoinasdjw
   icon: Provaprova
-  url:
-- name: Prova
-  card-color: lightblue
+  name: Prova
+  url: 
+- card-color: lightblue
   description: Provoinasdjw
   icon: Provaprova
-  url:
+  name: Prova
+  url: 
 menus:
 - name: news
   url: "/news/"
