@@ -1,6 +1,68 @@
 ---
+categories:
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/EPF3485.jpg"
+  name: Armadi Refrigerati TN
+  url: 
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/mcf8605.jpg"
+  name: Armadi Refrigerati BT
+  url: 
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/esl3831-34.jpg"
+  name: Vetrine Refrigerate
+  url: 
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/EPF3485.jpg"
+  name: Banchi Pizza
+  url: 
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/mcf8605.jpg"
+  name: Saladettes
+  url: 
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/esl3831-34.jpg"
+  name: Catering Equipment
+  url: 
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/esl3831-34.jpg"
+  name: Teglie Gastronorm
+  url: 
+- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.
+  img: "/assets/img/products/esl3831-34.jpg"
+  name: Vetrine
+  url: 
+home-specials:
+- card-color: lightcoral
+  description: Provoinasdjw
+  icon: Provaprova
+  name: Prova
+  url: 
+- card-color: lightgreen
+  description: Provoinasdjw
+  icon: Provaprova
+  name: Prova
+  url: 
+- card-color: lightpink
+  description: Provoinasdjw
+  icon: Provaprova
+  name: Prova
+  url: 
+- card-color: lightblue
+  description: Provoinasdjw
+  icon: Provaprova
+  name: Prova
+  url: 
 menus:
-- name: news prova
+- name: news
   url: "/news/"
 - name: products
   url: "/products/"
@@ -12,65 +74,3 @@ menus:
   url: "/about/"
 - name: contact
   url: "/contact/"
-categories:
-- name: Armadi Refrigerati TN
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/EPF3485.jpg"
-  url: 
-- name: Armadi Refrigerati BT
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/mcf8605.jpg"
-  url: 
-- name: Vetrine Refrigerate
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
-  url: 
-- name: Banchi Pizza
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/EPF3485.jpg"
-  url: 
-- name: Saladettes
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/mcf8605.jpg"
-  url: 
-- name: Catering Equipment
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
-  url: 
-- name: Teglie Gastronorm
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
-  url: 
-- name: Vetrine
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
-  url: 
-home-specials:
-- name: Prova
-  icon: Provaprova
-  description: Provoinasdjw
-  card-color: lightcoral
-  url: 
-- name: Prova
-  icon: Provaprova
-  description: Provoinasdjw
-  card-color: lightgreen
-  url: 
-- name: Prova
-  icon: Provaprova
-  description: Provoinasdjw
-  card-color: lightpink
-  url: 
-- name: Prova
-  icon: Provaprova
-  description: Provoinasdjw
-  card-color: lightblue
-  url: 
