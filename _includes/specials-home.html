@@ -15,7 +15,9 @@
   </div>
   <div class="specials-home-container-big">
     <div class="specials-home-card-big">
-
+      {% for certification in site.data.settings.certifications limit: 10 %}
+      <div class="certification" title="{{ certification.name }}" style="background-image: url({{ certification.img }})"></div>
+      {% endfor %}
     </div>
   </div>
 </div>
