@@ -1,9 +1,9 @@
 ---
-title: Prodotto 2
+code: EPF3485
+name: Prodotto 2
 layout: product
 date: 2017-01-08
 published: true
-code: EPF3485
 img: /assets/img/products/EPF3485.jpg
 family: Armadi Refrigerati BT
 offers: true

@@ -1,9 +1,9 @@
 ---
-title: Prodotto 4
+code: EPF3485
+name: Prodotto 4
 layout: product
 date: 2017-01-08
 published: true
-code: esl3831-34
 img: /assets/img/products/esl3831-34.jpg
 family: Banchi Pizza
 offers: true
