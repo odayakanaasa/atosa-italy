@@ -45,22 +45,22 @@ home-specials:
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightgreen
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightpink
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightblue
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 menus:
 - name: news
   url: "/news/"
@@ -74,4 +74,6 @@ menus:
   url: "/about/"
 - name: contact
   url: "/contact/"
-certifications: []
+certifications:
+- name: "ISO 14001"
+  url: "/assets/img/certifications/SGS_ISO_14001.png"
