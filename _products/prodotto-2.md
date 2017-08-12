@@ -1,6 +1,6 @@
 ---
+title: Prodotto 2
 layout: product
-name: Prodotto 2
 date: 2017-01-08
 published: true
 code: EPF3485

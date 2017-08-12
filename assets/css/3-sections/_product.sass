@@ -20,6 +20,7 @@
   transition: $transition-shadows
   position: relative
   align-self: flex-start
+  border-radius: 20px
 
   &:hover
     box-shadow: $shadow-1
@@ -61,3 +62,73 @@
         color: rgba(66, 66, 66, 0.6)
         font-size: 16px
         letter-spacing: inherit
+
+.product-page
+  position: relative
+  max-width: 1216px
+  margin: 0 auto
+  padding: 30px
+
+  .product-container
+    box-shadow: $shadow-1
+    border-radius: 20px
+    padding: 30px
+
+    p
+      max-width: 65%
+
+    .product-basics
+      display: flex
+      justify-content: space-between
+      margin-bottom: 50px
+
+      .product-images
+        position: relative
+        width: 40%
+        max-height: 1000px
+        display: flex
+        align-content: center
+        box-shadow: $shadow-1
+        transition: $transition-movement
+        border-radius: 20px
+        padding: 20px 0
+        cursor: pointer
+
+        &:hover
+          transform: scale(1.04)
+
+        img
+          position: relative
+          max-height: 100%
+          max-width: 100%
+          margin: 0 auto
+          align-self: flex-start
+
+
+      .product-info
+        position: relative
+        width: 55%
+        // background-color: lightcoral
+
+        h1
+          font-family: 'Roboto Mono', monospace
+          font-size: 24px
+          font-weight: 400
+          line-height: 28px
+          max-width: 75%
+          // background-color: pink
+
+        h2
+          margin: 10px 0
+          font-size: 18px
+          line-height: 20px
+          letter-spacing: 2px
+
+        h3
+          font-family: 'Roboto Mono', monospace
+          font-weight: 400
+          margin: 10px 0
+          font-size: 15px
+          line-height: 18px
+          color: rgba(66, 66, 66, 0.6)
+          letter-spacing: inherit

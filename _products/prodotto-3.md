@@ -1,6 +1,6 @@
 ---
+title: Prodotto 3
 layout: product
-name: Freezer con display e tripla porta a vetro
 date: 2017-01-08
 published: true
 code: esl3831-34
