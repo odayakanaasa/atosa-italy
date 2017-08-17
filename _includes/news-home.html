@@ -1,5 +1,5 @@
-<div class="news-home scroll-fixer-controll">
-  <div class="news-home-container">
+<div class="news-single news-home paddings-all scroll-fixer-controll ">
+  <div class="news-single-container">
     {% for new in site.news %}
       {% if forloop.last %}
       <div class="post-image" style="background-image: url( {{ new.img }} )"></div>
@@ -15,4 +15,4 @@
     {% endfor %}
   </div>
 </div>
-<div class="section-divider"></div>
+<div class="section-divider margins-x"></div>

@@ -1,9 +1,9 @@
-<div class="offers-home">
+<div class="offers-home paddings-x">
   <div class="section-title"><a href="/offers/">offers</a></div>
   <div class="offers-home-container">
     {% for product in site.products limit: 3 %}
       {% if product.offers == true %}
-        <div class="product-card">
+        <div class="product-card paddings-all">
           <a href="{{ product.url }}">
             <div class="product-content-container">
               <div class="card-image"><img src="{{ product.img }}" alt=""></div>
@@ -17,4 +17,4 @@
     {% endfor %}
   </div>
 </div>
-<div class="section-divider"></div>
+<div class="section-divider margins-x"></div>

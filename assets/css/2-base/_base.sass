@@ -74,7 +74,6 @@ a
 .section-title
   max-width: 1216px
   margin: 30px auto
-  // background-color: pink
 
   a
     font-size: 22px
@@ -89,9 +88,35 @@ a
   background-color: $color-red-atosa
   margin: 0 auto
 
-@media (max-width: $ipad-landscape)
-  .grow
-    transition: none
+.paddings-all
+  padding: 30px
 
-  .grow:hover
-    transform: none
+.paddings-x
+  padding: 0 30px
+
+@media (max-width: 1276px)
+  .margins-x
+    margin: 0 30px
+
+@media (max-width: $mobile-landscape)
+  .paddings-all
+    padding: 15px
+
+  .paddings-x
+    padding: 0 15px
+
+  .margins-x
+    margin: 0 15px
+
+@media (max-width: $mobile-big)
+  .scroll-fixer
+    height: 70px!important
+
+  .paddings-all
+    padding: 10px
+
+  .paddings-x
+    padding: 0 10px
+
+  .margins-x
+    margin: 0 10px

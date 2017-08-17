@@ -1,5 +1,19 @@
+<div class="side-bar hide">
+  <div class="menu">
+    <ul>
+      {% for menu in site.data.settings.menus %}
+      <li>
+        <a href="{{ menu.url }}" class="link-menu">{{ menu.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="side-bar-overlay hide"></div>
+
 <navbar class="nav-main">
-  <div class="nav-main-container">
+  <div class="nav-main-container paddings-x">
     <a href="{{ site.url }}"><div class="logo"></div></a>
     <a href="{{ site.url }}"><div class="logo-small hide"></div></a>
     <div class="menu">
@@ -11,15 +25,29 @@
         {% endfor %}
       </ul>
     </div>
+
+    <div class="menu-collapse hide">
+      <span><i class="material-icons">menu</i></span>
+    </div>
+
     <div class="ux-btn">
       <div class="btn-container">
-        <div class="btn-icon" title="Search">
-          <a href=""><i class="material-icons">&#xE8B6;</i></a>
+        <div id="search-btn" class="btn-icon" title="Search">
+          <span><i class="material-icons">&#xE8B6;</i></span>
         </div>
         <div class="btn-icon" title="User area">
           <a href="/sign-in/"><i class="material-icons">&#xE7FD;</i></a>
         </div>
       </div>
     </div>
+    <form class="search-form hide" action="/search/" method="get">
+
+      <button class="search-btn-confirm" type="button"><i class="material-icons">search</i></button>
+
+      <input class="search-input" type="text" id="search-box" name="query" placeholder="Search Atosa Italy">
+
+      <button class="search-btn-close" type="button"><i class="material-icons">close</i></button>
+
+    </form>
   </div>
 </navbar>

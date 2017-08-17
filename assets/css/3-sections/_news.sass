@@ -43,11 +43,14 @@
           p
             font-size: 17px
 
+.news-home:hover
+  box-shadow: $shadow-1
+
 .news-single
   max-width: 1216px
   margin: 20px auto
-  padding: 32px
   cursor: default
+  transition: $transition-shadows
 
   .news-single-container
     width: 100%
@@ -68,3 +71,122 @@
         margin-bottom: 20px
         color: $color-black-alternative
         font-family: 'Roboto Mono', monospace
+
+@media (max-width: $ipad-landscape)
+  .news
+
+    .news-container
+
+      .post-container
+
+        .post-date
+
+        .post-content-container
+          max-width: 60%
+
+@media (max-width: $ipad-portrait)
+  .news-single
+
+    .news-single-container
+
+      .post-image
+        height: 550px
+
+  .news
+
+    .news-container
+
+      .post-container
+
+        .post-date
+
+        .post-content-container
+          max-width: 70%
+
+@media (max-width: $mobile-landscape)
+  .news-single:hover
+    box-shadow: none
+
+  .news-single
+
+    .news-single-container
+
+      .post-image
+        height: 450px
+
+  .news
+
+    .news-container
+
+      .post-container
+
+        .post-date
+
+        .post-content-container
+          max-width: 80%
+
+@media (max-width: $mobile-big)
+  .news-single
+
+    .news-single-container
+
+      .post-image
+        height: 300px
+
+  .news
+
+    .news-container
+
+      .post-container
+
+        .post-date
+          width: 100%
+          height: auto
+          position: relative
+
+        .post-content-container
+          max-width: 100%
+          margin-left: 0
+          margin-top: 30px
+
+@media (max-width: 530px)
+  .news-single
+
+    .news-single-container
+
+      .post-image
+        height: 250px!important
+
+  .news
+
+    .news-container
+
+      .post-container
+
+        .post-date
+
+        .post-content-container
+
+          .post-image
+            height: 300px
+
+@media (max-width: $mobile-portrait)
+  .news-single
+
+    .news-single-container
+
+      .post-image
+        height: 250px!important
+
+  .news
+
+    .news-container
+
+      .post-container
+
+        .post-date
+
+        .post-content-container
+
+          .post-image
+            height: 250px

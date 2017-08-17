@@ -46,7 +46,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple/atosa-apple-icon-ipad.png">
 
   <!-- Style Sheets -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.min.css">
 
   <!-- 404 Page Redirect -->
   
@@ -54,10 +54,44 @@
 </head>
 <body lang="it">
 
+<div class="side-bar hide">
+  <div class="menu">
+    <ul>
+      
+      <li>
+        <a href="/news/" class="link-menu">news</a>
+      </li>
+      
+      <li>
+        <a href="/products/" class="link-menu">products</a>
+      </li>
+      
+      <li>
+        <a href="/specials/" class="link-menu">specials</a>
+      </li>
+      
+      <li>
+        <a href="/expo/" class="link-menu">expo</a>
+      </li>
+      
+      <li>
+        <a href="/about/" class="link-menu">about</a>
+      </li>
+      
+      <li>
+        <a href="/contact/" class="link-menu">contact</a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="side-bar-overlay hide"></div>
+
 <navbar class="nav-main">
-  <div class="nav-main-container">
-    <a href="http://localhost:4000"><div class="logo"></div></a>
-    <a href="http://localhost:4000"><div class="logo-small hide"></div></a>
+  <div class="nav-main-container paddings-x">
+    <a href="http://atosa-italy.it"><div class="logo"></div></a>
+    <a href="http://atosa-italy.it"><div class="logo-small hide"></div></a>
     <div class="menu">
       <ul>
         
@@ -87,27 +121,41 @@
         
       </ul>
     </div>
+
+    <div class="menu-collapse hide">
+      <span><i class="material-icons">menu</i></span>
+    </div>
+
     <div class="ux-btn">
       <div class="btn-container">
-        <div class="btn-icon" title="Search">
-          <a href=""><i class="material-icons">&#xE8B6;</i></a>
+        <div id="search-btn" class="btn-icon" title="Search">
+          <span><i class="material-icons">&#xE8B6;</i></span>
         </div>
         <div class="btn-icon" title="User area">
           <a href="/sign-in/"><i class="material-icons">&#xE7FD;</i></a>
         </div>
       </div>
     </div>
+    <form class="search-form hide" action="/search/" method="get">
+
+      <button class="search-btn-confirm" type="button"><i class="material-icons">search</i></button>
+
+      <input class="search-input" type="text" id="search-box" name="query" placeholder="Search Atosa Italy">
+
+      <button class="search-btn-close" type="button"><i class="material-icons">close</i></button>
+
+    </form>
   </div>
 </navbar>
 
 
-<div class="contact">
+<div class="contact paddings-x">
   <div class="section-title"><a href="/contact/">contact</a></div>
 </div>
 
-<div class="section-divider"></div>
+<div class="section-divider margins-x" id="footer-divider"></div>
 <footer class="footer-main">
-  <div class="footer-container-1">
+  <div class="footer-container-1 paddings-x">
     <div class="story">
       <h5>Atosa</h5>
       <p>Atosa Catering Equipment è una società di alta tecnologia che unisce la ricerca scientifica, la progettazione, la produzione e la vendita di refrigerazione commerciale e utensili da cucina. Atosa è produttore leader nel settore delle attrezzature da cucina commerciale.</p>
@@ -141,9 +189,9 @@
       </div>
     </div>
   </div>
-  <div class="footer-container-2">
+  <div class="footer-container-2 paddings-x">
     <div class="footer-content-2">
-      <a href="http://localhost:4000"><div class="logo-mono"></div></a>
+      <a href="http://atosa-italy.it"><div class="logo-mono"></div></a>
       <a href="/terms/" class="terms">Terms & Conditions</a>
     </div>
   </div>
@@ -152,6 +200,8 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/assets/js/functions.js"></script>
+  <!-- <script src="/assets/js/lunr.js"></script>
+  <script src="/assets/js/search.js"></script> -->
+  <script type="text/javascript" src="/assets/js/functions.min.js"></script>
 </body>
 </html>

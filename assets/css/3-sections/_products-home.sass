@@ -13,9 +13,7 @@
     flex-wrap: wrap
 
     .products-home-card
-      // background-color: red
-      width: calc(100%/3.530)
-      padding: 32px
+      width: calc((100%/3) - 60px)
       transition: $transition-shadows
       position: relative
       align-self: flex-start
@@ -49,3 +47,61 @@
           h2
             margin: 10px 0
             margin-top: 20px
+            font-size: 150%
+            line-height: 1.4
+
+          p
+            font-size: 110%
+            line-height: 1.4
+
+@media (max-width: 1260px)
+  .products-home
+
+    .products-home-container
+
+      .products-home-card
+        width: calc(50% - 60px)
+
+@media (max-width: $mobile-landscape)
+  .products-home
+
+    .products-home-container
+
+      .products-home-card
+        width: calc(50% - 30px)
+
+        a
+
+          .card-content-container
+
+            h2
+              margin: 10px 0
+              font-size: 120%
+              line-height: 1.4
+              margin-top: 20px
+
+            p
+              font-size: 90%
+              line-height: 1.4
+
+@media (max-width: $mobile-big)
+  .products-home
+
+    .products-home-container
+
+      .products-home-card
+        width: calc(50% - 20px)
+
+        a
+
+          .card-content-container
+
+            h2
+              margin: 10px 0
+              font-size: 100%
+              line-height: 1.4
+              margin-top: 20px
+
+            p
+              font-size: 70%
+              line-height: 1.4

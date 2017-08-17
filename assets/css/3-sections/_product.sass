@@ -15,8 +15,7 @@
 
 .product-card
   // background-color: coral
-  width: calc(100%/3.530)
-  padding: 32px
+  width: calc((100%/3) - 60px)
   transition: $transition-shadows
   position: relative
   align-self: flex-start
@@ -49,30 +48,30 @@
           max-width: 100%
 
       h2
-        margin: 10px 0
+        margin: 5px 0
         margin-top: 20px
+        font-size: 150%
+        line-height: 1.4
 
       p
-        font-size: 18px
+        font-size: 80%
         letter-spacing: 2px
-        margin-bottom: 5px
+        margin-bottom: 2px
 
       p:last-of-type
         font-family: 'Roboto Mono', monospace
         color: rgba(66, 66, 66, 0.6)
-        font-size: 16px
+        font-size: 70%
         letter-spacing: inherit
 
 .product-page
   position: relative
   max-width: 1216px
   margin: 0 auto
-  padding: 30px
 
   .product-container
     box-shadow: $shadow-1
     border-radius: 20px
-    padding: 30px
 
     p
       max-width: 65%
@@ -132,3 +131,51 @@
           line-height: 18px
           color: rgba(66, 66, 66, 0.6)
           letter-spacing: inherit
+
+@media (max-width: 1260px)
+  .product-card
+    width: calc((100% / 3) - 60px)
+
+@media (max-width: $mobile-landscape)
+  .product-card
+    width: calc((100% / 3) - 30px)
+
+    a
+
+      .product-content-container
+
+        .card-image
+
+          img
+
+        h2
+          font-size: 120%
+          line-height: 1.4
+
+        p
+          font-size: 80%
+
+        p:last-of-type
+          font-size: 70%
+
+@media (max-width: $mobile-big)
+  .product-card
+    width: calc((100% / 2) - 20px)
+
+    a
+
+      .product-content-container
+
+        .card-image
+
+          img
+
+        h2
+          font-size: 100%
+          line-height: 1.4
+
+        p
+          font-size: 80%
+
+        p:last-of-type
+          font-size: 70%
