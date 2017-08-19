@@ -75,22 +75,6 @@
             .menu-underline:first-of-type
               opacity: 1
 
-    .menu-collapse
-      position: absolute
-      top: 50%
-      transform: translateY(-50%)
-
-      span
-        display: block
-        width: 25px
-        height: 25px
-        cursor: pointer
-
-        i
-          color: $color-black-atosa
-          font-size: 25px
-          line-height: 25px
-
     .ux-btn
       position: relative
       left: calc(100% - 140px)
@@ -98,6 +82,7 @@
       // background-color: pink
       height: 50px
       max-width: 140px
+      cursor: pointer
 
       .btn-container
         position: relative
@@ -142,7 +127,7 @@
 
     .search-form
       position: absolute
-      // background-color: orange
+      background-color: white
       top: 50%
       left: 50%
       transform: translate(-50%, -50%)
@@ -205,8 +190,38 @@
   z-index: 999
   opacity: 0
 
+.menu-collapse
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+
+  span
+    display: block
+    width: 25px
+    height: 25px
+    cursor: pointer
+
+    i
+      color: $color-black-atosa
+      font-size: 25px
+      line-height: 25px
+
+@media (min-width: $ipad-portrait)
+  #nav-ipad
+    display: none
+
+  #nav-mobile
+    display: none
+
 @media (max-width: $ipad-portrait)
+  #nav-ipad
+    display: block
+
+  .nav-scroll
+    height: 60px!important
+
   .nav-main
+    display: none
 
     .nav-main-container
 
@@ -214,6 +229,9 @@
         top: 50%
         left: 50%
         transform: translate(-50%, -50%)
+
+      .menu-collapse
+        // display: none
 
       .ux-btn
         max-width: 100px!important
@@ -278,14 +296,40 @@
           margin-right: 30px
 
 @media (max-width: $mobile-big)
-  .nav-scroll
-    height: 60px!important
+  #nav-mobile
+    display: block
+
+  #nav-ipad
+    display: none
+
+  .scroll-fixer
+    display: none!important
+
+  .scroll-fixer-mobile
+    position: relative
+    display: block
+    height: 60px
+    max-width: 1216px
+    margin: 0 auto
 
   .nav-main
+    z-index: 998
+    position: fixed
+    width: 100%
+    max-width: none
+    height: 60px
+    top: 0
+    box-shadow: $shadow-3
+    background-color: white
+    transition: $transition-shadows
 
     .nav-main-container
 
+      .logo
+        display: none
+
       .logo-small
+        display: block!important
         top: 50%
         left: 50%
         transform: translate(-50%, -50%)
@@ -294,9 +338,11 @@
         display: none
 
       .menu-collapse
-
+        display: block!important
 
       .ux-btn
+        top: 50%
+        transform: translateY(-50%)
         max-width: 80px!important
         left: calc(100% - 80px)!important
 

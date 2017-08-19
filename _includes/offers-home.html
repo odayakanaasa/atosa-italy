@@ -1,7 +1,7 @@
 <div class="offers-home paddings-x">
   <div class="section-title"><a href="/offers/">offers</a></div>
-  <div class="offers-home-container">
-    {% for product in site.products limit: 3 %}
+  <div class="offers-home-container" id="offers-home-selector">
+    {% for product in site.products limit: 4 %}
       {% if product.offers == true %}
         <div class="product-card paddings-all">
           <a href="{{ product.url }}">

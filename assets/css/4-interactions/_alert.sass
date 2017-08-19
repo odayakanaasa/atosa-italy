@@ -1,0 +1,55 @@
+.alert
+  position: fixed
+  width: 300px
+  height: 120px
+  border-radius: 20px
+  box-shadow: $shadow-3
+  bottom: 0
+  right: 0
+  background-color: rgba(235, 33, 46, 0.95)
+
+  .alert-container
+    position: relative
+    width: 100%
+    height: 100%
+
+  .alert-close
+    position: absolute
+    background-color: white
+    padding: 8px
+    border-radius: 50%
+    cursor: pointer
+    transition: $transition-movement, $transition-shadows
+    box-shadow: $shadow-2
+    top: -10px
+    left: -10px
+
+    span
+      display: block
+      width: 25px
+      height: 25px
+
+      i
+        color: $color-black-atosa
+        font-size: 25px
+        line-height: 25px
+
+    &:hover
+      transform: scale(1.15)
+      box-shadow: $shadow-3
+
+
+.margins-alert
+  margin: 15px
+
+@media (max-width: 1276px)
+  .margins-alert
+    margin: 30px
+
+@media (max-width: $mobile-landscape)
+  .margins-alert
+    margin: 15px
+
+@media (max-width: $mobile-big)
+  .margins-alert
+    margin: 10px

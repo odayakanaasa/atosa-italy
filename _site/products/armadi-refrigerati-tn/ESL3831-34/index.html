@@ -55,7 +55,7 @@
 <body lang="it">
 
 <div class="side-bar hide">
-  <div class="menu">
+  <div class="side-bar-menu">
     <ul>
       
       <li>
@@ -122,13 +122,9 @@
       </ul>
     </div>
 
-    <div class="menu-collapse hide">
-      <span><i class="material-icons">menu</i></span>
-    </div>
-
     <div class="ux-btn">
       <div class="btn-container">
-        <div id="search-btn" class="btn-icon" title="Search">
+        <div class="btn-icon search-btn" title="Search">
           <span><i class="material-icons">&#xE8B6;</i></span>
         </div>
         <div class="btn-icon" title="User area">
@@ -138,15 +134,136 @@
     </div>
     <form class="search-form hide" action="/search/" method="get">
 
-      <button class="search-btn-confirm" type="button"><i class="material-icons">search</i></button>
+      <button class="search-btn-confirm" type="input"><i class="material-icons">search</i></button>
 
-      <input class="search-input" type="text" id="search-box" name="query" placeholder="Search Atosa Italy">
+      <input class="search-input search-box" type="text" name="query" placeholder="Search Atosa Italy">
 
       <button class="search-btn-close" type="button"><i class="material-icons">close</i></button>
 
     </form>
   </div>
 </navbar>
+
+<navbar class="nav-main" id="nav-ipad">
+  <div class="nav-main-container paddings-x">
+    <a href="http://atosa-italy.it"><div class="logo"></div></a>
+    <a href="http://atosa-italy.it"><div class="logo-small hide"></div></a>
+    <div class="menu menu-ipad">
+      <ul>
+        
+        <li>
+          <a href="/news/" class="link-menu">news</a>
+        </li>
+        
+        <li>
+          <a href="/products/" class="link-menu">products</a>
+        </li>
+        
+        <li>
+          <a href="/specials/" class="link-menu">specials</a>
+        </li>
+        
+        <li>
+          <a href="/expo/" class="link-menu">expo</a>
+        </li>
+        
+        <li>
+          <a href="/about/" class="link-menu">about</a>
+        </li>
+        
+        <li>
+          <a href="/contact/" class="link-menu">contact</a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="menu-collapse hide">
+      <span><i class="material-icons">menu</i></span>
+    </div>
+
+    <div class="ux-btn">
+      <div class="btn-container">
+        <div class="search-btn" class="btn-icon" title="Search">
+          <span><i class="material-icons">&#xE8B6;</i></span>
+        </div>
+        <div class="btn-icon" title="User area">
+          <a href="/sign-in/"><i class="material-icons">&#xE7FD;</i></a>
+        </div>
+      </div>
+    </div>
+    <form class="search-form hide" action="/search/" method="get">
+
+      <button class="search-btn-confirm" type="input"><i class="material-icons">search</i></button>
+
+      <input class="search-input search-box" type="text" name="query" placeholder="Search Atosa Italy">
+
+      <button class="search-btn-close" type="button"><i class="material-icons">close</i></button>
+
+    </form>
+  </div>
+</navbar>
+
+<navbar class="nav-main" id="nav-mobile">
+  <div class="nav-main-container paddings-x">
+    <a href="http://atosa-italy.it"><div class="logo"></div></a>
+    <a href="http://atosa-italy.it"><div class="logo-small hide"></div></a>
+    <div class="menu menu-ipad">
+      <ul>
+        
+        <li>
+          <a href="/news/" class="link-menu">news</a>
+        </li>
+        
+        <li>
+          <a href="/products/" class="link-menu">products</a>
+        </li>
+        
+        <li>
+          <a href="/specials/" class="link-menu">specials</a>
+        </li>
+        
+        <li>
+          <a href="/expo/" class="link-menu">expo</a>
+        </li>
+        
+        <li>
+          <a href="/about/" class="link-menu">about</a>
+        </li>
+        
+        <li>
+          <a href="/contact/" class="link-menu">contact</a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="menu-collapse hide">
+      <span><i class="material-icons">menu</i></span>
+    </div>
+
+    <div class="ux-btn">
+      <div class="btn-container">
+        <div class="search-btn" class="btn-icon" title="Search">
+          <span><i class="material-icons">&#xE8B6;</i></span>
+        </div>
+        <div class="btn-icon" title="User area">
+          <a href="/sign-in/"><i class="material-icons">&#xE7FD;</i></a>
+        </div>
+      </div>
+    </div>
+    <form class="search-form hide" action="/search/" method="get">
+
+      <button class="search-btn-confirm" type="input"><i class="material-icons">search</i></button>
+
+      <input class="search-input search-box" type="text" name="query" placeholder="Search Atosa Italy">
+
+      <button class="search-btn-close" type="button"><i class="material-icons">close</i></button>
+
+    </form>
+  </div>
+</navbar>
+<div class="scroll-fixer-mobile"></div>
 
 
 <div class="product-page paddings-all scroll-fixer-controll">
