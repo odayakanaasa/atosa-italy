@@ -46,7 +46,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple/atosa-apple-icon-ipad.png">
 
   <!-- Style Sheets -->
-  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- 404 Page Redirect -->
   
@@ -90,8 +90,8 @@
 
 <navbar class="nav-main">
   <div class="nav-main-container paddings-x">
-    <a href="http://atosa-italy.it"><div class="logo"></div></a>
-    <a href="http://atosa-italy.it"><div class="logo-small hide"></div></a>
+    <a href="http://localhost:4000"><div class="logo"></div></a>
+    <a href="http://localhost:4000"><div class="logo-small hide"></div></a>
     <div class="menu">
       <ul>
         
@@ -146,8 +146,8 @@
 
 <navbar class="nav-main" id="nav-ipad">
   <div class="nav-main-container paddings-x">
-    <a href="http://atosa-italy.it"><div class="logo"></div></a>
-    <a href="http://atosa-italy.it"><div class="logo-small hide"></div></a>
+    <a href="http://localhost:4000"><div class="logo"></div></a>
+    <a href="http://localhost:4000"><div class="logo-small hide"></div></a>
     <div class="menu menu-ipad">
       <ul>
         
@@ -206,8 +206,8 @@
 
 <navbar class="nav-main" id="nav-mobile">
   <div class="nav-main-container paddings-x">
-    <a href="http://atosa-italy.it"><div class="logo"></div></a>
-    <a href="http://atosa-italy.it"><div class="logo-small hide"></div></a>
+    <a href="http://localhost:4000"><div class="logo"></div></a>
+    <a href="http://localhost:4000"><div class="logo-small hide"></div></a>
     <div class="menu menu-ipad">
       <ul>
         
@@ -278,8 +278,6 @@
         <h3>EPF3485</h3>
       </div>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru</p>
-
   </div>
 </div>
 
@@ -321,7 +319,7 @@
   </div>
   <div class="footer-container-2 paddings-x">
     <div class="footer-content-2">
-      <a href="http://atosa-italy.it"><div class="logo-mono"></div></a>
+      <a href="http://localhost:4000"><div class="logo-mono"></div></a>
       <a href="/terms/" class="terms">Terms & Conditions</a>
     </div>
   </div>
@@ -332,6 +330,24 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- <script src="/assets/js/lunr.js"></script>
   <script src="/assets/js/search.js"></script> -->
-  <script type="text/javascript" src="/assets/js/functions.min.js"></script>
+  <script type="text/javascript" src="/assets/js/functions.js"></script>
+  <script type="text/javascript">
+    var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+
+    $(document).keydown(function(e) {
+
+    kkeys.push( e.keyCode );
+
+    if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+
+      $(document).unbind('keydown',arguments.callee);
+
+      // do something awesome
+      $(".news-home .news-single-container .post-image").html('<iframe width="1280" height="720" src="https://www.youtube.com/embed/BBGEG21CGo0?rel=0&amp;controls=0&amp;showinfo=0;autoplay=1;iv_load_policy=3" frameborder="0" allowfullscreen style="width: 100%; height: 100%"></iframe>');
+
+    }
+
+    });
+  </script>
 </body>
 </html>

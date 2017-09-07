@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Atosa Italy - Vetrine
-permalink: /products/vetrine/
+title: Atosa Italy - Showcase
+permalink: /products/showcase/
 description:
 ---
 {% include navbar.html %}
 
 <div class="product paddings-x scroll-fixer-controll">
-  <div class="section-title"><a href="/products/vetrine/">vetrine</a></div>
+  <div class="section-title"><a href="/products/showcase/">showcase</a></div>
   <div class="product-container">
     {% for product in site.products %}
-      {% if product.family == 'Vetrine' %}
+      {% if product.family == 'Showcase' %}
         <div class="product-card paddings-all">
           <a href="{{ product.url }}">
             <div class="product-content-container">

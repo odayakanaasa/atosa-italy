@@ -1,45 +1,29 @@
 ---
 categories:
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/EPF3485.jpg"
+- img: "/assets/img/products/MBF8116.jpg"
   name: Armadi Refrigerati TN
   url: "/products/armadi-refrigerati-tn/"
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/mcf8605.jpg"
+- img: "/assets/img/products/MBF8117 (2).jpg"
   name: Armadi Refrigerati BT
   url: "/products/armadi-refrigerati-bt/"
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
+- img: "/assets/img/products/vrx-glass.jpg"
   name: Vetrine Refrigerate
   url: "/products/vetrine-refrigerate/"
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/EPF3485.jpg"
+- img: "/assets/img/products/EPF3480 (2).jpg"
   name: Banchi Pizza
   url: "/products/banchi-pizza/"
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/mcf8605.jpg"
+- img: "/assets/img/products/ESL3853.jpg"
   name: Saladettes
   url: "/products/saladettes/"
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
+- img: "/assets/img/products/AT90512-2.jpg"
   name: Catering Equipment
   url: "/products/catering-equipment/"
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
+- img: "/assets/img/products/11100&11020.jpg"
   name: Teglie Gastronorm
   url: "/products/teglie-gastronorm/"
-- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-  img: "/assets/img/products/esl3831-34.jpg"
-  name: Vetrine
-  url: "/products/vetrine/"
+- img: "/assets/img/products/esl3831-34.jpg"
+  name: Showcase
+  url: "/products/showcase/"
 home-specials:
 - card-color: lightcoral
   description: Provoinasdjw
