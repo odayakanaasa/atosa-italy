@@ -1,7 +1,9 @@
 // General
 $(document).ready(function (){
   if ($(window).width() > 1024) {
-    $('#offers-home-selector .product-card').last().hide();
+    if ($('#offers-home-selector .product-card') > 3) {
+      $('#offers-home-selector .product-card').last().hide();
+    }
   }
 });
 // Nav-Scroll Function

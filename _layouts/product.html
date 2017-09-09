@@ -10,9 +10,26 @@ layout: default
         <img src="{{ page.img }}" alt="">
       </div>
       <div class="product-info">
-        <h1>{{ page.name }}</h1>
-        <h2>{{ page.family }}</h2>
-        <h3>{{ page.code }}</h3>
+        <div class="info-generals">
+          <h1>{{ page.name }}</h1>
+          <h2>{{ page.family }}</h2>
+          <h3>{{ page.code }}</h3>
+        </div>
+        <div class="info-specs">
+          {{ content }}
+          <div class="info-extra">
+            {% if page.energy != '' %}
+            <a href="{{ page.energy }}" target="_blank" title="Energy Classification">
+              <div class="extra-btn"><i class="material-icons">flash_on</i></div>
+            </a>
+            {% endif %}
+            {% if page.cadDraw != '' %}
+            <a href="{{ page.cadDraw }}" target="_blank" title="CAD Draw">
+              <div class="extra-btn"><i class="material-icons">drafts</i></div>
+            </a>
+            {% endif %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
