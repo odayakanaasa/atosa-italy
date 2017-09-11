@@ -29,22 +29,22 @@ home-specials:
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url:
+  url: 
 - card-color: lightgreen
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url:
+  url: 
 - card-color: lightpink
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url:
+  url: 
 - card-color: lightblue
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url:
+  url: 
 menus:
 - name: news
   url: "/news/"
@@ -59,23 +59,23 @@ menus:
 - name: contact
   url: "/contact/"
 certifications:
-- name: "ISO 14001"
+- name: ISO 14001
   img: "/assets/img/certifications/SGS_ISO_14001.png"
-- name: "ISO 9001"
+- name: ISO 9001
   img: "/assets/img/certifications/SGS_ISO_9001.png"
-- name: "ENERGY STAR"
+- name: ENERGY STAR
   img: "/assets/img/certifications/energy_star.png"
-- name: "CE"
+- name: CE
   img: "/assets/img/certifications/ce.png"
-- name: "RoHS"
+- name: RoHS
   img: "/assets/img/certifications/ROHS.png"
-- name: "CB"
+- name: CB
   img: "/assets/img/certifications/cb.png"
-- name: "MEPS"
+- name: MEPS
   img: "/assets/img/certifications/MEPS.png"
-- name: "NSF"
+- name: NSF
   img: "/assets/img/certifications/NSF.png"
-- name: "ETL"
+- name: ETL
   img: "/assets/img/certifications/ETL.png"
-- name: "PSE"
+- name: PSE
   img: "/assets/img/certifications/PSE.png"
