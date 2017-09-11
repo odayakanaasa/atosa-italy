@@ -51,13 +51,13 @@ menus:
 - name: products
   url: "/products/"
 - name: specials
-  url: "/specials/"
+  url: "/under-construction/"
 - name: expo
-  url: "/expo/"
+  url: "/under-construction/"
 - name: about
   url: "/about/"
 - name: contact
-  url: "/contact/"
+  url: "/under-construction/"
 certifications:
 - name: ISO 14001
   img: "/assets/img/certifications/SGS_ISO_14001.png"
