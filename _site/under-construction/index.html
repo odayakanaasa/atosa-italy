@@ -9,7 +9,7 @@
 
   <!-- Base SEO Meta Tags -->
   <title>Atosa Italy - Under construction</title>
-  <meta content="" name="description">
+  <meta content="We are working to create an innovative portal. At this time some sections are not complete yet, we are sorry for this. Come back soon to find out the upcoming updates." name="description">
   <meta name="keyword" content="">
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
@@ -18,12 +18,12 @@
   <meta property="og:title" content="Atosa Italy - Under construction">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Atosa Italy">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="We are working to create an innovative portal. At this time some sections are not complete yet, we are sorry for this. Come back soon to find out the upcoming updates.">
   <meta property="og:image" content="/assets/img/atosa_logo_icon.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Atosa Italy">
   <meta name="twitter:site" content="@">
-  <meta name="twitter:description" content="">
+  <meta name="twitter:description" content="We are working to create an innovative portal. At this time some sections are not complete yet, we are sorry for this. Come back soon to find out the upcoming updates.">
   <meta name="twitter:image" content="images/share.png">
   <meta property="og:url" content="index.html">
 
@@ -56,12 +56,21 @@
   <script src="https://use.fontawesome.com/24f3f62327.js"></script>
 
 <style media="screen">
+  .bg-coming-soon{
+    background: url(/assets/img/under_construction.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%
+  }
+
   .logo-small-coming-soon{
     background: url(/assets/img/atosa_logo.svg) center no-repeat;
     background-size: contain;
     position: absolute;
     width: 100px;
     height: 30px;
+    opacity: 0.6;
     margin: 0;
     top: 25px;
     left: 50%;
@@ -69,9 +78,9 @@
   }
 
   .overlay-coming-soon{
-    background-color: grey;
+    background-color: black;
     position: relative;
-    opacity: 0.5;
+    opacity: 0.7;
     width: 100%;
     height: 100vh;
   }
@@ -81,16 +90,71 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: pink;
+    max-width: 550px
+  }
+
+  .content-coming-soon h1{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .content-coming-soon p{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .button-coming-soon{
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+    border: solid 2px white;
+    position: relative;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+
+  .button-coming-soon:hover{
+    background-color: white;
+  }
+
+  .button-coming-soon:hover span{
+    color: black;
+  }
+
+  .button-coming-soon span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
 </style>
 
+<div class="bg-coming-soon">
+
+</div>
 <div class="overlay-coming-soon"></div>
-<a href="http://localhost:4000"><div class="logo-small-coming-soon"></div></a>
+<a href="http://atosa-italy.it"><div class="logo-small-coming-soon"></div></a>
 
 
 <div class="content-coming-soon">
   <h1>Atosa is currently under construction</h1>
+  <p>We are working to create an innovative portal. At this time some sections are not complete yet, we are sorry for this. Come back soon to find out the upcoming updates.</p>
+  <a href="http://atosa-italy.it"><div class="button-coming-soon"><span>Home</span></div></a>
 </div>
 
 
