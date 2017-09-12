@@ -24,6 +24,27 @@ categories:
 - img: "/assets/img/products/esl3831-34.jpg"
   name: Showcase
   url: "/products/showcase/"
+certifications:
+- img: "/assets/img/certifications/SGS_ISO_14001.png"
+  name: ISO 14001
+- img: "/assets/img/certifications/SGS_ISO_9001.png"
+  name: ISO 9001
+- img: "/assets/img/certifications/energy_star.png"
+  name: ENERGY STAR
+- img: "/assets/img/certifications/ce.png"
+  name: CE
+- img: "/assets/img/certifications/ROHS.png"
+  name: RoHS
+- img: "/assets/img/certifications/cb.png"
+  name: CB
+- img: "/assets/img/certifications/MEPS.png"
+  name: MEPS
+- img: "/assets/img/certifications/NSF.png"
+  name: NSF
+- img: "/assets/img/certifications/ETL.png"
+  name: ETL
+- img: "/assets/img/certifications/PSE.png"
+  name: PSE
 home-specials:
 - card-color: lightcoral
   description: Provoinasdjw
@@ -58,24 +79,3 @@ menus:
   url: "/about/"
 - name: contact
   url: "/under-construction/"
-certifications:
-- name: ISO 14001
-  img: "/assets/img/certifications/SGS_ISO_14001.png"
-- name: ISO 9001
-  img: "/assets/img/certifications/SGS_ISO_9001.png"
-- name: ENERGY STAR
-  img: "/assets/img/certifications/energy_star.png"
-- name: CE
-  img: "/assets/img/certifications/ce.png"
-- name: RoHS
-  img: "/assets/img/certifications/ROHS.png"
-- name: CB
-  img: "/assets/img/certifications/cb.png"
-- name: MEPS
-  img: "/assets/img/certifications/MEPS.png"
-- name: NSF
-  img: "/assets/img/certifications/NSF.png"
-- name: ETL
-  img: "/assets/img/certifications/ETL.png"
-- name: PSE
-  img: "/assets/img/certifications/PSE.png"
