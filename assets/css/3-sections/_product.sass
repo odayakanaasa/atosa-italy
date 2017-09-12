@@ -186,6 +186,24 @@
   .product-card
     width: calc((100% / 2) - 60px)
 
+  .product-page
+
+    .product-container
+
+      .product-basics
+        flex-direction: column
+
+        .product-images
+          width: 80%
+          margin: 0 auto
+          margin-bottom: 30px
+
+          &:hover
+            transform: none
+
+        .product-info
+          width: 100%
+
 @media (max-width: $mobile-landscape)
   .product-card
     width: calc((100% / 2) - 30px)
@@ -229,3 +247,13 @@
 
         p:last-of-type
           font-size: 70%
+
+
+  .product-page
+
+    .product-container
+
+      .product-basics
+
+        .product-images
+          width: 100%
