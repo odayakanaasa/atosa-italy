@@ -127,7 +127,6 @@
 
     .search-form
       position: absolute
-      background-color: white
       top: 50%
       left: 50%
       transform: translate(-50%, -50%)
@@ -141,6 +140,7 @@
         border: none
         letter-spacing: 0.05rem
         padding: 5px
+        background-color: inherit
         outline: inherit
 
       .search-btn-confirm
@@ -279,7 +279,7 @@
           position: relative
           top: 50%
           transform: translateY(-50%)
-          margin-left: 30px
+          margin-left: 10px
 
         .search-btn-close
           display: block
@@ -293,7 +293,16 @@
           position: relative
           top: 50%
           transform: translateY(-50%)
-          margin-right: 30px
+          margin-right: 10px
+
+.nav-scroll
+  background-color: white!important
+
+@media (min-width: $ipad-landscape)
+  .nav-scroll
+    background-color: rgba(255, 255, 255, 0.7)!important
+    -webkit-backdrop-filter: saturate(1.8) blur(20px)
+    backdrop-filter: saturate(1.8) blur(20px)!important
 
 @media (max-width: $mobile-big)
   #nav-mobile

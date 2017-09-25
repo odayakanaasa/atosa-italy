@@ -631,7 +631,6 @@ a {
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1); }
     .nav-main .nav-main-container .search-form {
       position: absolute;
-      background-color: white;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -644,6 +643,7 @@ a {
         border: none;
         letter-spacing: 0.05rem;
         padding: 5px;
+        background-color: inherit;
         outline: inherit; }
       .nav-main .nav-main-container .search-form .search-btn-confirm {
         display: block;
@@ -760,7 +760,7 @@ a {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        margin-left: 30px; }
+        margin-left: 10px; }
       .nav-main .nav-main-container .search-form .search-btn-close {
         display: block;
         height: 25px;
@@ -773,7 +773,15 @@ a {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        margin-right: 30px; } }
+        margin-right: 10px; } }
+.nav-scroll {
+  background-color: white !important; }
+
+@media (min-width: 1224px) {
+  .nav-scroll {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    -webkit-backdrop-filter: saturate(1.8) blur(20px);
+    backdrop-filter: saturate(1.8) blur(20px) !important; } }
 @media (max-width: 640px) {
   #nav-mobile {
     display: block; }
@@ -1179,6 +1187,56 @@ a {
   max-width: 1216px;
   margin: 0 auto;
   margin-bottom: 50px; }
+  .terms .terms-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .terms .terms-container .terms-nav {
+      width: 25%;
+      height: 100%;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 110px; }
+      .terms .terms-container .terms-nav h3 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 20px;
+        line-height: 1; }
+      .terms .terms-container .terms-nav ul {
+        list-style: none;
+        padding-left: 0;
+        margin-top: 10px; }
+        .terms .terms-container .terms-nav ul:last-of-type {
+          margin-bottom: 0; }
+        .terms .terms-container .terms-nav ul li {
+          font-family: "Roboto", sans-serif;
+          font-size: 15px;
+          line-height: 24px;
+          color: #424242;
+          margin: 0;
+          -webkit-font-smoothing: antialiased; }
+    .terms .terms-container .terms-content {
+      width: 73%; }
+      .terms .terms-container .terms-content h4 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.05rem;
+        line-height: 1;
+        margin: 18px 0;
+        margin-top: 0;
+        color: #424242;
+        -webkit-font-smoothing: antialiased; }
+      .terms .terms-container .terms-content ul {
+        list-style: initial; }
+        .terms .terms-container .terms-content ul li {
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          line-height: 24px;
+          color: #424242;
+          margin: 0;
+          -webkit-font-smoothing: antialiased; }
 
 .product {
   position: relative;
@@ -1293,8 +1351,16 @@ a {
             -webkit-font-smoothing: antialiased; }
           .product-page .product-container .product-basics .product-info .info-specs .info-specs-table tbody tr td:first-of-type {
             font-weight: 500;
-            margin-right: 50px;
-            width: 35%; }
+            width: 45%; }
+        .product-page .product-container .product-basics .product-info .info-specs .extra-notes {
+          margin: 30px 0;
+          font-family: "Roboto", sans-serif;
+          font-size: 17px;
+          line-height: 24px;
+          font-weight: 500;
+          width: 100%;
+          color: #424242;
+          -webkit-font-smoothing: antialiased; }
         .product-page .product-container .product-basics .product-info .info-specs .info-extra {
           display: flex;
           margin-top: 30px; }
@@ -1367,7 +1433,6 @@ a {
   height: 70px;
   top: 0;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.2), 0 0 35px rgba(0, 0, 0, 0.2);
-  background-color: white;
   transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
   .nav-scroll .nav-main-container-scroll {
     max-width: 1216px;
