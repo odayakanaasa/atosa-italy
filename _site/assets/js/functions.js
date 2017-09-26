@@ -57,13 +57,17 @@ $('.search-btn').on('click', function(){
     };
   }
   $('.search-form').removeClass('hide');
-  $('.menu').addClass('hide');
+  if ($(window).width() > 1024) {
+    $('.menu').addClass('hide');
+  }
   setTimeout(function(){ $('.search-box').focus(); }, 200);
 });
 
 $('.search-btn-close').on('click', function(){
   $('.search-form').addClass('hide');
-  $('.menu').removeClass('hide');
+  if ($(window).width() > 1024) {
+    $('.menu').removeClass('hide');
+  }
 });
 
 $(window).scroll(function () {

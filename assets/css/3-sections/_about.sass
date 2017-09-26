@@ -48,3 +48,49 @@
     background-size: contain
     background-repeat: no-repeat
     background-position: center center
+
+@media (max-width: $ipad-landscape)
+  .about
+    .about-video
+      max-height: 650px
+
+      iframe
+        max-height: 650px
+
+@media (max-width: $ipad-portrait)
+  .about
+    .about-video
+      max-height: 500px
+
+      iframe
+        max-height: 500px
+
+@media (max-width: $mobile-landscape)
+  .about
+    .about-video
+      max-height: 400px
+
+      .video-cover
+        i
+          font-size: 120px
+
+      iframe
+        max-height: 400px
+
+    p
+      max-width: 85%
+
+@media (max-width: $mobile-big)
+  .about
+    .about-video
+      max-height: 300px
+
+      .video-cover
+        i
+          font-size: 100px
+
+      iframe
+        max-height: 300px
+
+    p
+      max-width: 90%

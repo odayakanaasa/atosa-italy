@@ -679,11 +679,65 @@ a {
   left: -55%;
   height: 100vh;
   z-index: 9999;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25), 0 0 40px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25), 0 0 40px rgba(0, 0, 0, 0.25);
+  overflow: scroll;
+  max-width: 300px; }
+  .side-bar .side-bar-menu .logo-small-side-nav {
+    background: url(/assets/img/atosa_logo.svg) center no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin: 30px 15px;
+    margin-bottom: 35px; }
+  .side-bar .side-bar-menu ul {
+    list-style: none;
+    margin: inherit;
+    padding: 0 30px; }
+    .side-bar .side-bar-menu ul:first-of-type {
+      text-transform: uppercase;
+      padding: 0 15px; }
+    .side-bar .side-bar-menu ul li {
+      margin: 1.125rem 0; }
+      .side-bar .side-bar-menu ul li a {
+        color: #424242;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        pointer-events: all;
+        line-height: 1.5rem; }
+  .side-bar .side-bar-menu span {
+    padding: 0 15px;
+    color: rgba(66, 66, 66, 0.7);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    pointer-events: all;
+    line-height: 1.5rem; }
+  .side-bar .side-bar-menu .side-bar-divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(66, 66, 66, 0.4);
+    margin: 20px 0; }
+    .side-bar .side-bar-menu .side-bar-divider:first-of-type {
+      margin-top: 2rem; }
+  .side-bar .side-bar-menu .logo-mono-side-nav {
+    width: 30px;
+    height: 27px;
+    background-image: url(/assets/img/atosa_logo_mono.svg);
+    background-repeat: no-repeat;
+    margin: 30px 0;
+    margin-left: 15px;
+    margin-top: 50px; }
+  .side-bar .side-bar-menu .terms-side-nav {
+    color: rgba(0, 0, 26, 0.4);
+    position: relative;
+    padding: 30px 15px; }
 
 .side-bar-overlay {
   position: fixed;
-  background-color: rgba(65, 69, 73, 0.6);
+  background-color: rgba(65, 69, 73, 0.9);
   width: 100%;
   height: 100vh;
   z-index: 999;
@@ -827,11 +881,7 @@ a {
       left: calc(100% - 80px) !important; }
       .nav-main .nav-main-container .ux-btn .btn-container .btn-icon {
         padding: 0 !important;
-        background-color: inherit !important; }
-
-  .side-bar {
-    width: 70%;
-    left: -75%; } }
+        background-color: inherit !important; } }
 .products-home {
   position: relative;
   max-width: 1280px;
@@ -905,6 +955,9 @@ a {
     flex-wrap: wrap;
     align-content: flex-start; }
 
+@media (max-width: 768px) {
+  #divider-offers-home {
+    display: none; } }
 .specials-home {
   position: relative;
   max-width: 1280px;
@@ -957,6 +1010,9 @@ a {
         background-size: contain;
         margin: 25px; }
 
+@media (max-width: 768px) {
+  .specials-home {
+    display: none; } }
 .footer-main {
   position: relative;
   bottom: 0;
@@ -1183,6 +1239,34 @@ a {
     background-repeat: no-repeat;
     background-position: center center; }
 
+@media (max-width: 1224px) {
+  .about .about-video {
+    max-height: 650px; }
+    .about .about-video iframe {
+      max-height: 650px; } }
+@media (max-width: 1024px) {
+  .about .about-video {
+    max-height: 500px; }
+    .about .about-video iframe {
+      max-height: 500px; } }
+@media (max-width: 768px) {
+  .about .about-video {
+    max-height: 400px; }
+    .about .about-video .video-cover i {
+      font-size: 120px; }
+    .about .about-video iframe {
+      max-height: 400px; }
+  .about p {
+    max-width: 85%; } }
+@media (max-width: 640px) {
+  .about .about-video {
+    max-height: 300px; }
+    .about .about-video .video-cover i {
+      font-size: 100px; }
+    .about .about-video iframe {
+      max-height: 300px; }
+  .about p {
+    max-width: 90%; } }
 .terms {
   max-width: 1216px;
   margin: 0 auto;
@@ -1238,6 +1322,11 @@ a {
           margin: 0;
           -webkit-font-smoothing: antialiased; }
 
+@media (max-width: 768px) {
+  .terms .terms-container .terms-nav {
+    display: none; }
+  .terms .terms-container .terms-content {
+    width: 100%; } }
 .product {
   position: relative;
   max-width: 1280px;
