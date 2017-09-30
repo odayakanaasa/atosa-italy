@@ -15,11 +15,17 @@
 
 /* THANKS */
 
-    Luca Marini: l.marini@atosa-italy.it
-    Silvia Palumbo: s.palumbo@atosa-italy.it
-    Sabrina Viceconti: s.viceconti@atosa-italy.it
-    Tiziana Pizzigoni: t.pizzigoni@atosa-italy.it
-    Giovanni Lacatena: g.lacatena@atosa-italy.it
+    # Atosa Team
+
+    Luca Marini
+    Silvia Palumbo
+    Sabrina Viceconti
+    Tiziana Pizzigoni
+    Giovanni Lacatena
+
+    # Others
+
+    
 
 /* SITE */
 

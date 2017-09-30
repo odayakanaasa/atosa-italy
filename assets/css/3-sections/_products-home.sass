@@ -54,6 +54,27 @@
             font-size: 110%
             line-height: 1.4
 
+  .btn-icon
+    background-color: rgba(65, 69, 73, 0.1)
+    padding: 12px
+    border-radius: 50%
+    cursor: pointer
+    transition: $transition-all
+    width: 30px
+    position: relative
+    left: 50%
+    transform: translateX(-50%)
+
+    a
+      display: block
+      width: 30px
+      height: 30px
+
+      i
+        color: $color-black-atosa
+        font-size: 30px
+        line-height: 30px
+
 @media (max-width: 1260px)
   .products-home
 
@@ -61,6 +82,9 @@
 
       .products-home-card
         width: calc(50% - 60px)
+
+    .btn-icon
+      margin-top: 30px
 
 @media (max-width: $mobile-landscape)
   .products-home

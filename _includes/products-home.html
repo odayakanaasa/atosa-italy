@@ -1,5 +1,5 @@
 <div class="products-home paddings-x">
-  <div class="section-title"><a href="/products/">products</a></div>
+  <div class="section-title"><a href="/products/">prodotti</a></div>
   <div class="products-home-container">
     {% for category in site.data.settings.categories limit:6 %}
     <div class="products-home-card paddings-all">
@@ -11,6 +11,9 @@
       </a>
     </div>
     {% endfor %}
+  </div>
+  <div class="btn-icon" title="Show More">
+    <a href="/products/"><i class="material-icons">add</i></a>
   </div>
 </div>
 <div class="section-divider margins-x"></div>

@@ -125,17 +125,13 @@ $(document).ready(function() {
 });
 
 //Terms Slide
-$(document).ready(function(){
-	$('.terms-nav a[href^="#"]').on('click',function (e) {
-	    e.preventDefault();
+$('.terms-nav a[href^="#"]').click(function (e) {
+    e.preventDefault();
 
-	    var target = this.hash;
-	    var $target = $(target);
+    var id = $(this).attr('href');
+    var scrollTo = $(id).offset().top-110;
 
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top-110
-	    }, 700, 'swing', function () {
-	        window.location.hash = target;
-	    });
-	});
+    $('html,body').animate({
+        'scrollTop': scrollTo
+    }, 700, 'swing');
 });
