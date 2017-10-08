@@ -1,0 +1,152 @@
+.contact
+  position: relative
+  max-width: 1216px
+  margin: 0 auto
+  margin-bottom: 50px
+
+  .contact-row-container
+    display: flex
+    justify-content: space-between
+
+    .contact-info
+      position: relative
+      width: 48%
+      height: 500px
+      border-radius: 20px
+      box-shadow: $shadow-1
+      transition: $transition-shadows
+
+    .contact-map
+      position: relative
+      width: 48%
+      height: 500px
+      border-radius: 20px
+      box-shadow: $shadow-1
+      overflow: hidden
+      transition: $transition-shadows
+      cursor: pointer
+
+      iframe
+        width: 100%
+        height: 100%
+        pointer-events: none
+
+  .contact-form
+    position: relative
+    width: 48%
+    border-radius: 20px
+    margin-top: 4%
+    box-shadow: $shadow-1
+    transition: $transition-shadows
+
+    .contact-form-container
+      padding: 30px
+      position: relative
+
+      h3
+        position: relative
+        margin-top: 0
+        margin-bottom: 30px
+
+      p
+        margin-bottom: 20px
+        position: relative
+
+      select
+        outline: none
+        min-width: 50%
+
+      form
+        margin-top: 50px
+        position: relative
+
+        .form-row
+          display: flex
+          flex-wrap: wrap
+          justify-content: space-between
+
+          .form-cell
+            width: 48%
+
+        p
+          margin-bottom: 5px
+          position: relative
+
+          &:last-of-type
+            margin-top: 15px
+
+        input
+          border-radius: none
+          border: none
+          border-bottom: rgba(66, 66, 66, 0.4) 1px solid
+          height: 25px
+          width: 100%
+          margin-bottom: 15px
+          position: relative
+          transition: $transition-all
+          outline: none
+
+          &:focus
+            border-color: $color-red-atosa
+
+        #form-confirm-btn
+          width: 200px
+          left: 50%
+          transform: translateX(-50%)
+          margin-top: 25px
+          padding: 10px
+          height: auto
+          border: none
+          outline: none
+          border: solid $color-red-atosa 2px
+          border-radius: 20px
+          background: none
+          color: $color-red-atosa
+          font-family: 'Roboto', sans-serif
+          font-size: 18px
+          text-transform: uppercase
+          letter-spacing: 2px
+          transition: $transition-all
+          cursor: pointer
+
+          &:hover
+            background-color: $color-red-atosa
+            color: white
+
+        textarea
+          margin-bottom: 15px
+          min-height: 100px
+          width: 100%
+          padding: 0
+          outline: none
+          border: none
+          border-bottom: rgba(66, 66, 66, 0.4) solid 1px
+          transition: $transition-all
+          font-family: sans-serif
+          font-size: 100%
+          line-height: 1.15
+
+          &:focus
+            border-color: $color-red-atosa
+
+@media (min-width: $ipad-portrait)
+  .contact-info
+    &:hover
+      box-shadow: $shadow-2!important
+  .contact-map
+    &:hover
+      box-shadow: $shadow-2!important
+  .contact-form
+    &:hover
+      box-shadow: $shadow-2!important
+
+@media (max-width: $ipad-portrait)
+  .contact-row-container
+    flex-wrap: wrap!important
+  .contact-info
+    width: 100%!important
+    margin-bottom: 4%!important
+  .contact-map
+    width: 100%!important
+  .contact-form
+    width: 100%!important

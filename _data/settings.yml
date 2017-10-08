@@ -50,22 +50,22 @@ home-specials:
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightgreen
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightpink
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 - card-color: lightblue
   description: Provoinasdjw
   icon: Provaprova
   name: Prova
-  url: 
+  url:
 menus:
 - name: prodotti
   url: "/products/"
@@ -78,4 +78,4 @@ menus:
 - name: about
   url: "/about/"
 - name: contatti
-  url: "/under-construction/"
+  url: "/contact/"

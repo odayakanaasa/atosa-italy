@@ -733,7 +733,8 @@ a {
   .side-bar .side-bar-menu .terms-side-nav {
     color: rgba(0, 0, 26, 0.4);
     position: relative;
-    padding: 30px 15px; }
+    padding: 30px 15px;
+    padding-bottom: 70px; }
 
 .side-bar-overlay {
   position: fixed;
@@ -1531,6 +1532,139 @@ a {
 
   .product-page .product-container .product-basics .product-images {
     width: 100%; } }
+.contact {
+  position: relative;
+  max-width: 1216px;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+  .contact .contact-row-container {
+    display: flex;
+    justify-content: space-between; }
+    .contact .contact-row-container .contact-info {
+      position: relative;
+      width: 48%;
+      height: 500px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+    .contact .contact-row-container .contact-map {
+      position: relative;
+      width: 48%;
+      height: 500px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      cursor: pointer; }
+      .contact .contact-row-container .contact-map iframe {
+        width: 100%;
+        height: 100%;
+        pointer-events: none; }
+  .contact .contact-form {
+    position: relative;
+    width: 48%;
+    border-radius: 20px;
+    margin-top: 4%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+    .contact .contact-form .contact-form-container {
+      padding: 30px;
+      position: relative; }
+      .contact .contact-form .contact-form-container h3 {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 30px; }
+      .contact .contact-form .contact-form-container p {
+        margin-bottom: 20px;
+        position: relative; }
+      .contact .contact-form .contact-form-container select {
+        outline: none;
+        min-width: 50%; }
+      .contact .contact-form .contact-form-container form {
+        margin-top: 50px;
+        position: relative; }
+        .contact .contact-form .contact-form-container form .form-row {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between; }
+          .contact .contact-form .contact-form-container form .form-row .form-cell {
+            width: 48%; }
+        .contact .contact-form .contact-form-container form p {
+          margin-bottom: 5px;
+          position: relative; }
+          .contact .contact-form .contact-form-container form p:last-of-type {
+            margin-top: 15px; }
+        .contact .contact-form .contact-form-container form input {
+          border-radius: none;
+          border: none;
+          border-bottom: rgba(66, 66, 66, 0.4) 1px solid;
+          height: 25px;
+          width: 100%;
+          margin-bottom: 15px;
+          position: relative;
+          transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+          outline: none; }
+          .contact .contact-form .contact-form-container form input:focus {
+            border-color: #EB212E; }
+        .contact .contact-form .contact-form-container form #form-confirm-btn {
+          width: 200px;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-top: 25px;
+          padding: 10px;
+          height: auto;
+          border: none;
+          outline: none;
+          border: solid #EB212E 2px;
+          border-radius: 20px;
+          background: none;
+          color: #EB212E;
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+          cursor: pointer; }
+          .contact .contact-form .contact-form-container form #form-confirm-btn:hover {
+            background-color: #EB212E;
+            color: white; }
+        .contact .contact-form .contact-form-container form textarea {
+          margin-bottom: 15px;
+          min-height: 100px;
+          width: 100%;
+          padding: 0;
+          outline: none;
+          border: none;
+          border-bottom: rgba(66, 66, 66, 0.4) solid 1px;
+          transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+          font-family: sans-serif;
+          font-size: 100%;
+          line-height: 1.15; }
+          .contact .contact-form .contact-form-container form textarea:focus {
+            border-color: #EB212E; }
+
+@media (min-width: 1024px) {
+  .contact-info:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18), 0 0 30px rgba(0, 0, 0, 0.18) !important; }
+
+  .contact-map:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18), 0 0 30px rgba(0, 0, 0, 0.18) !important; }
+
+  .contact-form:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18), 0 0 30px rgba(0, 0, 0, 0.18) !important; } }
+@media (max-width: 1024px) {
+  .contact-row-container {
+    flex-wrap: wrap !important; }
+
+  .contact-info {
+    width: 100% !important;
+    margin-bottom: 4% !important; }
+
+  .contact-map {
+    width: 100% !important; }
+
+  .contact-form {
+    width: 100% !important; } }
 .hide {
   display: none !important; }
 

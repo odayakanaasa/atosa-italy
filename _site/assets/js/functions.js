@@ -135,3 +135,36 @@ $('.terms-nav a[href^="#"]').click(function (e) {
         'scrollTop': scrollTo
     }, 700, 'swing');
 });
+
+//Maps Unlocker
+$('.contact-map').on('click', function(){
+  $(this).closest('iframe').css('pointer-events', 'all');
+});
+
+//Contact Selector
+$('#mail-list').change(function(){
+  var mailSelected = $('#mail-list').val();
+  console.log(mailSelected);
+  // $('#form-mail').attr('action', 'Silvia Palumbo');
+  switch (mailSelected) {
+    case 'LucaMarini':
+        $('#form-mail').attr('action', 'https://formspree.io/'+'l.marini'+'@atosa-italy.it');
+        break;
+
+    case 'SilviaPalumbo':
+        $('#form-mail').attr('action', 'https://formspree.io/'+'s.palumbo'+'@atosa-italy.it');
+        break;
+
+    case 'SabrinaViceconti':
+        $('#form-mail').attr('action', 'https://formspree.io/'+'s.viceconti'+'@atosa-italy.it');
+        break;
+
+    case 'TizianaPizzigoni':
+        $('#form-mail').attr('action', 'https://formspree.io/'+'t.pizzigoni'+'@atosa-italy.it');
+        break;
+
+    case 'GiovanniLacatena':
+        $('#form-mail').attr('action', 'https://formspree.io/'+'g.lacatena'+'@atosa-italy.it');
+        break;
+  };
+});

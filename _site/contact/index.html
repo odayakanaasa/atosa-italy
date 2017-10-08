@@ -83,7 +83,7 @@
       </li>
       
       <li>
-        <a href="/under-construction/" class="link-menu">contatti</a>
+        <a href="/contact/" class="link-menu">contatti</a>
       </li>
       
     </ul>
@@ -143,7 +143,7 @@
         </li>
         
         <li>
-          <a href="/under-construction/" class="link-menu">contatti</a>
+          <a href="/contact/" class="link-menu">contatti</a>
         </li>
         
       </ul>
@@ -199,7 +199,7 @@
         </li>
         
         <li>
-          <a href="/under-construction/" class="link-menu">contatti</a>
+          <a href="/contact/" class="link-menu">contatti</a>
         </li>
         
       </ul>
@@ -259,7 +259,7 @@
         </li>
         
         <li>
-          <a href="/under-construction/" class="link-menu">contatti</a>
+          <a href="/contact/" class="link-menu">contatti</a>
         </li>
         
       </ul>
@@ -293,8 +293,63 @@
 <div class="scroll-fixer-mobile"></div>
 
 
-<div class="contact paddings-x">
-  <div class="section-title"><a href="/contact/">contact</a></div>
+<div class="contact paddings-x scroll-fixer-controll">
+  <div class="section-title"><a href="/contact/">contatti</a></div>
+  <div class="contact-row-container">
+    <div class="contact-info"></div>
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.6490581132193!2d8.900810315811551!3d45.41641597910048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786efe58d80f947%3A0x3bdf370d8f23719e!2sAtosa+Catering+Equipment!5e0!3m2!1sit!2sit!4v1507463959449" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="contact-form">
+    <div class="contact-form-container">
+      <h3>Scrivete ad Atosa</h3>
+
+      <p>Selezionare il destinatario del messaggio:</p>
+
+      <select id="mail-list">
+        <option id="mail1" value="LucaMarini">Luca Marini - General Manager</option>
+        <option id="mail2" value="SilviaPalumbo">Silvia Palumbo</option>
+        <option id="mail3" value="SabrinaViceconti">Sabrina Viceconti</option>
+        <option id="mail4" value="TizianaPizzigoni">Tiziana Pizzigoni</option>
+        <option id="mail5" value="GiovanniLacatena">Giovanni Lacatena</option>
+      </select>
+
+      <form id="form-mail" action="https://formspree.io/l.marini@atosa-italy.it" method="POST">
+        <input type="hidden" name="_next" value="http://localhost:4000/contact/">
+        <input type="hidden" name="_format" value="plain">
+        <input type="text" name="_gotcha" style="display:none">
+        <input type="hidden" name="_language" value="it">
+
+        <div class="form-row">
+          <div class="form-cell">
+            <p>Nome</p>
+            <input type="text" name="name" required>
+          </div>
+          <div class="form-cell">
+            <p>Mail</p>
+            <input type="email" name="_replyto" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-cell">
+            <p>Oggetto</p>
+            <input type="text" name="_subject" required>
+          </div>
+          <div class="form-cell">
+            <p>Telefono</p>
+            <input type="cel" name="phone">
+          </div>
+        </div>
+
+        <p>Messaggio</p>
+        <textarea name="message" required></textarea>
+
+        <input type="submit" id="form-confirm-btn" value="Invia">
+      </form>
+    </div>
+  </div>
 </div>
 
 <div class="section-divider margins-x" id="footer-divider"></div>
