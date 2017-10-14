@@ -830,7 +830,7 @@ a {
         transform: translateY(-50%);
         margin-right: 10px; } }
 .nav-scroll {
-  background-color: white !important; }
+  background-color: white; }
 
 @media (min-width: 1224px) {
   .nav-scroll {
@@ -1391,9 +1391,9 @@ a {
       margin-bottom: 2px; }
     .product-card a .product-content-container p:last-of-type {
       font-family: "Roboto Mono", monospace;
-      color: rgba(66, 66, 66, 0.6);
-      font-size: 70%;
-      letter-spacing: inherit; }
+      color: #424242;
+      font-size: 100%;
+      letter-spacing: 1px; }
 
 .product-page {
   position: relative;
@@ -1474,6 +1474,34 @@ a {
         .product-page .product-container .product-basics .product-info .info-specs .info-extra {
           display: flex;
           margin-top: 30px; }
+          .product-page .product-container .product-basics .product-info .info-specs .info-extra .extra-btn-alert {
+            background-color: #424242;
+            min-width: 100px;
+            height: 28px;
+            padding: 0 5px;
+            position: absolute;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            letter-spacing: 2px;
+            line-height: 28px;
+            text-align: center;
+            border-radius: 7px;
+            bottom: -45px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: none;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+            .product-page .product-container .product-basics .product-info .info-specs .info-extra .extra-btn-alert .arrow-up {
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-bottom: 12px solid #424242;
+              position: absolute;
+              top: -12px;
+              left: 50%;
+              transform: translateX(-50%); }
           .product-page .product-container .product-basics .product-info .info-specs .info-extra .extra-btn {
             width: 65px;
             height: 65px;
@@ -1491,6 +1519,8 @@ a {
               color: rgba(65, 69, 73, 0.8); }
             .product-page .product-container .product-basics .product-info .info-specs .info-extra .extra-btn:hover {
               background-color: rgba(65, 69, 73, 0.1); }
+            .product-page .product-container .product-basics .product-info .info-specs .info-extra .extra-btn:hover .extra-btn-alert {
+              display: block; }
 
 @media (max-width: 1260px) {
   .product-card {
@@ -1508,7 +1538,9 @@ a {
       .product-page .product-container .product-basics .product-images:hover {
         transform: none; }
     .product-page .product-container .product-basics .product-info {
-      width: 100%; } }
+      width: 100%; }
+      .product-page .product-container .product-basics .product-info .info-specs .info-extra .extra-btn-alert {
+        display: none !important; } }
 @media (max-width: 768px) {
   .product-card {
     width: calc((100% / 2) - 30px); }
@@ -1539,18 +1571,28 @@ a {
   margin-bottom: 50px; }
   .contact .contact-row-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between; }
     .contact .contact-row-container .contact-info {
       position: relative;
       width: 48%;
-      height: 500px;
       border-radius: 20px;
       box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
       transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+      .contact .contact-row-container .contact-info .contact-info-container {
+        padding: 30px; }
+        .contact .contact-row-container .contact-info .contact-info-container h3 {
+          margin-top: 0;
+          margin-bottom: 30px; }
+        .contact .contact-row-container .contact-info .contact-info-container p {
+          margin-bottom: 5px;
+          font-size: 16px; }
+          .contact .contact-row-container .contact-info .contact-info-container p:first-of-type {
+            margin-bottom: 35px;
+            font-size: 18px; }
     .contact .contact-row-container .contact-map {
       position: relative;
       width: 48%;
-      height: 500px;
       border-radius: 20px;
       box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
       overflow: hidden;
@@ -1560,88 +1602,105 @@ a {
         width: 100%;
         height: 100%;
         pointer-events: none; }
-  .contact .contact-form {
-    position: relative;
-    width: 48%;
-    border-radius: 20px;
-    margin-top: 4%;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-    .contact .contact-form .contact-form-container {
-      padding: 30px;
-      position: relative; }
-      .contact .contact-form .contact-form-container h3 {
+    .contact .contact-row-container .contact-team {
+      align-self: flex-start;
+      position: relative;
+      width: 48%;
+      border-radius: 20px;
+      margin-top: 4%;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+      .contact .contact-row-container .contact-team .contact-team-container {
+        padding: 30px; }
+        .contact .contact-row-container .contact-team .contact-team-container h3 {
+          margin-top: 0;
+          margin-bottom: 30px; }
+        .contact .contact-row-container .contact-team .contact-team-container p {
+          margin: 10px 0; }
+          .contact .contact-row-container .contact-team .contact-team-container p:first-of-type {
+            margin-top: 0; }
+    .contact .contact-row-container .contact-form {
+      position: relative;
+      width: 48%;
+      border-radius: 20px;
+      margin-top: 4%;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+      .contact .contact-row-container .contact-form .contact-form-container {
         position: relative;
-        margin-top: 0;
-        margin-bottom: 30px; }
-      .contact .contact-form .contact-form-container p {
-        margin-bottom: 20px;
-        position: relative; }
-      .contact .contact-form .contact-form-container select {
-        outline: none;
-        min-width: 50%; }
-      .contact .contact-form .contact-form-container form {
-        margin-top: 50px;
-        position: relative; }
-        .contact .contact-form .contact-form-container form .form-row {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between; }
-          .contact .contact-form .contact-form-container form .form-row .form-cell {
-            width: 48%; }
-        .contact .contact-form .contact-form-container form p {
-          margin-bottom: 5px;
-          position: relative; }
-          .contact .contact-form .contact-form-container form p:last-of-type {
-            margin-top: 15px; }
-        .contact .contact-form .contact-form-container form input {
-          border-radius: none;
-          border: none;
-          border-bottom: rgba(66, 66, 66, 0.4) 1px solid;
-          height: 25px;
-          width: 100%;
-          margin-bottom: 15px;
+        padding: 30px; }
+        .contact .contact-row-container .contact-form .contact-form-container h3 {
           position: relative;
-          transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-          outline: none; }
-          .contact .contact-form .contact-form-container form input:focus {
-            border-color: #EB212E; }
-        .contact .contact-form .contact-form-container form #form-confirm-btn {
-          width: 200px;
-          left: 50%;
-          transform: translateX(-50%);
-          margin-top: 25px;
-          padding: 10px;
-          height: auto;
-          border: none;
+          margin-top: 0;
+          margin-bottom: 30px; }
+        .contact .contact-row-container .contact-form .contact-form-container p {
+          margin-bottom: 20px;
+          position: relative; }
+        .contact .contact-row-container .contact-form .contact-form-container select {
           outline: none;
-          border: solid #EB212E 2px;
-          border-radius: 20px;
-          background: none;
-          color: #EB212E;
-          font-family: "Roboto", sans-serif;
-          font-size: 18px;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-          cursor: pointer; }
-          .contact .contact-form .contact-form-container form #form-confirm-btn:hover {
-            background-color: #EB212E;
-            color: white; }
-        .contact .contact-form .contact-form-container form textarea {
-          margin-bottom: 15px;
-          min-height: 100px;
-          width: 100%;
-          padding: 0;
-          outline: none;
-          border: none;
-          border-bottom: rgba(66, 66, 66, 0.4) solid 1px;
-          transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-          font-family: sans-serif;
-          font-size: 100%;
-          line-height: 1.15; }
-          .contact .contact-form .contact-form-container form textarea:focus {
-            border-color: #EB212E; }
+          min-width: 50%; }
+        .contact .contact-row-container .contact-form .contact-form-container form {
+          margin-top: 50px;
+          position: relative; }
+          .contact .contact-row-container .contact-form .contact-form-container form .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; }
+            .contact .contact-row-container .contact-form .contact-form-container form .form-row .form-cell {
+              width: 48%; }
+          .contact .contact-row-container .contact-form .contact-form-container form p {
+            margin-bottom: 5px;
+            position: relative; }
+            .contact .contact-row-container .contact-form .contact-form-container form p:last-of-type {
+              margin-top: 15px; }
+          .contact .contact-row-container .contact-form .contact-form-container form input {
+            border-radius: none;
+            border: none;
+            border-bottom: rgba(66, 66, 66, 0.4) 1px solid;
+            height: 25px;
+            width: 100%;
+            margin-bottom: 15px;
+            position: relative;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            outline: none; }
+            .contact .contact-row-container .contact-form .contact-form-container form input:focus {
+              border-color: #EB212E; }
+          .contact .contact-row-container .contact-form .contact-form-container form #form-confirm-btn {
+            width: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 25px;
+            padding: 10px;
+            height: auto;
+            border: none;
+            outline: none;
+            border: solid #EB212E 2px;
+            border-radius: 20px;
+            background: none;
+            color: #EB212E;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            cursor: pointer; }
+            .contact .contact-row-container .contact-form .contact-form-container form #form-confirm-btn:hover {
+              background-color: #EB212E;
+              color: white; }
+          .contact .contact-row-container .contact-form .contact-form-container form textarea {
+            margin-bottom: 15px;
+            min-height: 100px;
+            width: 100%;
+            padding: 0;
+            outline: none;
+            border: none;
+            border-bottom: rgba(66, 66, 66, 0.4) solid 1px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            font-family: sans-serif;
+            font-size: 100%;
+            line-height: 1.15; }
+            .contact .contact-row-container .contact-form .contact-form-container form textarea:focus {
+              border-color: #EB212E; }
 
 @media (min-width: 1024px) {
   .contact-info:hover {
@@ -1650,21 +1709,46 @@ a {
   .contact-map:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.18), 0 0 30px rgba(0, 0, 0, 0.18) !important; }
 
+  .contact-team:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18), 0 0 30px rgba(0, 0, 0, 0.18) !important; }
+
   .contact-form:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.18), 0 0 30px rgba(0, 0, 0, 0.18) !important; } }
 @media (max-width: 1024px) {
-  .contact-row-container {
-    flex-wrap: wrap !important; }
-
   .contact-info {
     width: 100% !important;
     margin-bottom: 4% !important; }
 
   .contact-map {
+    width: 100% !important;
+    height: 350px; }
+
+  .contact-team {
     width: 100% !important; }
 
   .contact-form {
     width: 100% !important; } }
+.download {
+  position: relative;
+  max-width: 1216px;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+  .download .download-container .download-row {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px; }
+    .download .download-container .download-row:last-of-type {
+      margin-bottom: 0; }
+    .download .download-container .download-row h3 {
+      margin-top: 0;
+      margin-bottom: 30px; }
+    .download .download-container .download-row .download-content {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start; }
+
 .hide {
   display: none !important; }
 

@@ -147,24 +147,12 @@ $('#mail-list').change(function(){
   console.log(mailSelected);
   // $('#form-mail').attr('action', 'Silvia Palumbo');
   switch (mailSelected) {
-    case 'LucaMarini':
-        $('#form-mail').attr('action', 'https://formspree.io/'+'l.marini'+'@atosa-italy.it');
+    case 'UfficioCommerciale':
+        $('#form-mail').attr('action', 'https://formspree.io/'+'info'+'@atosa-italy.it');
         break;
 
-    case 'SilviaPalumbo':
-        $('#form-mail').attr('action', 'https://formspree.io/'+'s.palumbo'+'@atosa-italy.it');
-        break;
-
-    case 'SabrinaViceconti':
-        $('#form-mail').attr('action', 'https://formspree.io/'+'s.viceconti'+'@atosa-italy.it');
-        break;
-
-    case 'TizianaPizzigoni':
-        $('#form-mail').attr('action', 'https://formspree.io/'+'t.pizzigoni'+'@atosa-italy.it');
-        break;
-
-    case 'GiovanniLacatena':
-        $('#form-mail').attr('action', 'https://formspree.io/'+'g.lacatena'+'@atosa-italy.it');
+    case 'Amministrazione':
+        $('#form-mail').attr('action', 'https://formspree.io/'+'amministrazione'+'@atosa-italy.it');
         break;
   };
 });

@@ -1,0 +1,74 @@
+---
+manuals:
+- name: Armadi Refrigerati
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/ISTRUZIONI PER MONTAGGIO KIT CASSETTI EPF.pdf"
+- name: Banchi Refrigerati
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - ARMADI REFRIGERATI.pdf"
+- name: Saladettes
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - BANCHI REFRIGERATI.pdf"
+- name: Vetrine Refrigerate VRX
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - SALADETTES.pdf"
+- name: Kit Cassetti EPF
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - VETRINE REFRIGERATE VRX.pdf"
+- name: XR02CX Controllore Digitale TN
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/XR02CX CONTROLLORE DIGITALE TN.pdf"
+- name: XR06CX Controllore Digitale BT
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/XR06CX CONTROLLORE DIGITALE BT.pdf"
+
+certifications:
+- name: Vetrine Refrigerate VRX
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - SALADETTES.pdf"
+- name: Kit Cassetti EPF
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - VETRINE REFRIGERATE VRX.pdf"
+- name: XR02CX Controllore Digitale TN
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/XR02CX CONTROLLORE DIGITALE TN.pdf"
+
+warranties:
+- name: Armadi Refrigerati
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/ISTRUZIONI PER MONTAGGIO KIT CASSETTI EPF.pdf"
+- name: Banchi Refrigerati
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - ARMADI REFRIGERATI.pdf"
+- name: Saladettes
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - BANCHI REFRIGERATI.pdf"
+- name: Vetrine Refrigerate VRX
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - SALADETTES.pdf"
+- name: Kit Cassetti EPF
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - VETRINE REFRIGERATE VRX.pdf"
+
+catalogs:
+- name: Armadi Refrigerati
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/ISTRUZIONI PER MONTAGGIO KIT CASSETTI EPF.pdf"
+- name: Banchi Refrigerati
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - ARMADI REFRIGERATI.pdf"
+- name: Saladettes
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - BANCHI REFRIGERATI.pdf"
+- name: Vetrine Refrigerate VRX
+  subtitle: Manuale di Istruzioni
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - SALADETTES.pdf"
+- name: Kit Cassetti EPF
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/MANUALE DI ISTRUZIONI - VETRINE REFRIGERATE VRX.pdf"
+- name: XR02CX Controllore Digitale TN
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/XR02CX CONTROLLORE DIGITALE TN.pdf"
+- name: XR06CX Controllore Digitale BT
+  subtitle: Manuale di Montaggio
+  url: "/assets/downloads/manuali/XR06CX CONTROLLORE DIGITALE BT.pdf"

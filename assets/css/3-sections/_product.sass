@@ -59,10 +59,10 @@
         margin-bottom: 2px
 
       p:last-of-type
-        font-family: 'Roboto Mono', monospace
-        color: rgba(66, 66, 66, 0.6)
-        font-size: 70%
-        letter-spacing: inherit
+        font-family: "Roboto Mono", monospace
+        color: rgba(66, 66, 66, 1)
+        font-size: 100%
+        letter-spacing: 1px
 
 .product-page
   position: relative
@@ -167,6 +167,36 @@
             display: flex
             margin-top: 30px
 
+            .extra-btn-alert
+              background-color: $color-black-alternative
+              min-width: 100px
+              height: 28px
+              padding: 0 5px
+              position: absolute
+              color: white
+              font-family: 'Roboto', sans-serif
+              font-weight: 500
+              letter-spacing: 2px
+              line-height: 28px
+              text-align: center
+              border-radius: 7px
+              bottom: -45px
+              left: 50%
+              transform: translateX(-50%)
+              display: none
+              transition: $transition-all
+
+              .arrow-up
+                width: 0
+                height: 0
+                border-left: 10px solid transparent
+                border-right: 10px solid transparent
+                border-bottom: 12px solid $color-black-alternative
+                position: absolute
+                top: -12px
+                left: 50%
+                transform: translateX(-50%)
+
             .extra-btn
               width: 65px
               height: 65px
@@ -186,6 +216,9 @@
 
               &:hover
                 background-color: rgba(65, 69, 73, 0.1)
+
+              &:hover .extra-btn-alert
+                display: block
 
 @media (max-width: 1260px)
   .product-card
@@ -212,6 +245,11 @@
 
         .product-info
           width: 100%
+
+          .info-specs
+            .info-extra
+              .extra-btn-alert
+                display: none!important
 
 @media (max-width: $mobile-landscape)
   .product-card

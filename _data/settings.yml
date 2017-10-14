@@ -15,15 +15,15 @@ categories:
 - img: "/assets/img/products/ESL3853.jpg"
   name: Saladettes
   url: "/products/saladettes/"
+- img: "/assets/img/products/esl3831-34.jpg"
+  name: Showcase
+  url: "/products/showcase/"
 - img: "/assets/img/products/AT90512-2.jpg"
   name: Catering Equipment
   url: "/products/catering-equipment/"
 - img: "/assets/img/products/11100&11020.jpg"
   name: Teglie Gastronorm
   url: "/products/teglie-gastronorm/"
-- img: "/assets/img/products/esl3831-34.jpg"
-  name: Showcase
-  url: "/products/showcase/"
 certifications:
 - img: "/assets/img/certifications/SGS_ISO_14001.png"
   name: ISO 14001
@@ -72,9 +72,9 @@ menus:
 - name: news
   url: "/news/"
 - name: expo
-  url: "/under-construction/"
+  url: "/expo/"
 - name: download
-  url: "/under-construction/"
+  url: "/download/"
 - name: about
   url: "/about/"
 - name: contatti
