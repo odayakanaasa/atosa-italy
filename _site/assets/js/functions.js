@@ -156,3 +156,34 @@ $('#mail-list').change(function(){
         break;
   };
 });
+
+//SearchBox-Results
+$('#search-input').on('input', function(){
+  $('#results-container').css('padding', '15px');
+});
+
+$('#search-input').on('input', function(){
+  if ($('#search-input').val() == '') {
+    setTimeout(function(){$('#results-container').css('padding', '0');}, 100);
+  };
+});
+
+$('#search-input-2').on('input', function(){
+  $('#results-container-2').css('padding', '30px 60px');
+});
+
+$('#search-input-2').on('input', function(){
+  if ($('#search-input-2').val() == '') {
+    setTimeout(function(){$('#results-container-2').css('padding', '0');}, 100);
+  };
+});
+
+$('#search-input-3').on('input', function(){
+  $('#results-container-3').css('padding', '30px 60px');
+});
+
+$('#search-input-3').on('input', function(){
+  if ($('#search-input-3').val() == '') {
+    setTimeout(function(){$('#results-container-3').css('padding', '0');}, 100);
+  };
+});

@@ -1,0 +1,15 @@
+---
+---
+[
+  {% for product in site.products %}
+    {
+
+      "name"    : "{{ product.name | strip_html | escape }}",
+      "url"      : "{{ product.url }}{{ post.url }}",
+      "family" : "{{ product.family }}",
+      "date"     : "{{ product.date }}",
+      "code"    : "{{ product.code }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

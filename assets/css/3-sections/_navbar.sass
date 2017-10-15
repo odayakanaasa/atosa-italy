@@ -131,6 +131,7 @@
       .search-input
         width: 500px
         margin: 0 30px
+        margin-left: 65px
         font-family: 'Roboto', sans-serif
         -webkit-font-smoothing: antialiased
         border: none
@@ -168,6 +169,48 @@
           color: $color-black-atosa
           font-size: 25px
           line-height: 25px
+
+      .box-shadow-controll, .box-shadow-controll-2, .box-shadow-controll-3
+        margin: 0
+        overflow: hidden
+        position: absolute
+        height: 500px
+        width: 640px
+        top: 52px
+        left: 50%
+        transform: translateX(-50%)
+        padding-left: 60px
+
+      #results-container, #results-container-2, #results-container-3
+        margin: 0 auto
+        list-style: none
+        width: 545px
+        padding: 0px
+        font-family: 'Roboto', sans-serif
+        background-color: white
+        border-bottom-left-radius: 10px
+        border-bottom-right-radius: 10px
+        font-size: 20px
+        line-height: 26px
+        color: black
+        box-shadow: $shadow-3
+
+        li a
+          color: $color-black-alternative
+
+      .box-shadow-controll-2, .box-shadow-controll-3
+        padding: 0
+        width: 100%
+
+      #results-container-2, #results-container-3
+        margin: 0
+        position: absolute
+        margin-top: 0
+        width: 100%
+        max-width: 100%
+        padding: 0
+        border-radius: 0
+        line-height: 32px
 
 .side-bar
   position: fixed
@@ -360,12 +403,6 @@
 
 .nav-scroll
   background-color: white
-
-@media (min-width: $ipad-landscape)
-  .nav-scroll
-    background-color: rgba(255, 255, 255, 0.7)!important
-    -webkit-backdrop-filter: saturate(1.8) blur(20px)
-    backdrop-filter: saturate(1.8) blur(20px)!important
 
 @media (max-width: $mobile-big)
   #nav-mobile

@@ -1,8 +1,9 @@
-<div class="news-single news-home paddings-all scroll-fixer-controll ">
+<div class="section-title paddings-x"><a href="/news/">news</a></div>
+<div class="news-single news-home paddings-all">
   <div class="news-single-container">
     {% for new in site.news %}
       {% if forloop.last %}
-      <div class="post-image" style="background-image: url( {{ new.img }} )"></div>
+      <a href="{{ new.url }}"><div class="post-image" style="background-image: url( {{ new.img }} )"></div></a>
       <div class="post-content">
         <h1>{{ new.title }}</h1>
         <h3>{{ new.subtitle }}</h3>
@@ -15,4 +16,4 @@
     {% endfor %}
   </div>
 </div>
-<div class="section-divider margins-x"></div>
+<div id="divider-news-home" class="section-divider margins-x"></div>
