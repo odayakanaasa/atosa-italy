@@ -1,0 +1,51 @@
+---
+events:
+- name: Prova 1
+  subtitle: Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15
+  description: Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+  date: 11/01/2017
+  date_short: 11 Jan
+  date_long: 11 Gennaio, 2017
+  img: ""
+  url: "/news/2017/10/07/"
+  selected: false
+
+- name: Host 2017 di Milano
+  subtitle: Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15
+  description: Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+  date: 20/10/2017
+  date_short: 20 Oct
+  date_long: 20 Ottobre, 2017
+  img: "/assets/img/news/news-1.jpg"
+  url: "/news/2017/10/07/"
+  selected: true
+
+- name: Prova 2
+  subtitle: Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15
+  description: Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+  date: 23/12/2017
+  date_short: 23 Dec
+  date_long: 23 Dicembre, 2017
+  img: ""
+  url: "/news/2017/10/07/"
+  selected: false
+
+- name: Prova 3
+  subtitle: Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15
+  description: Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+  date: 15/09/2018
+  date_short: 15 Sep
+  date_long: 15 Settembre, 2018
+  img: ""
+  url: "/news/2017/10/07/"
+  selected: false
+
+- name: Prova 4
+  subtitle: Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15
+  description: Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+  date: 03/01/2019
+  date_short: 03 Jan
+  date_long: 03 Gennaio, 2019
+  img: ""
+  url: "/news/2017/10/07/"
+  selected: false

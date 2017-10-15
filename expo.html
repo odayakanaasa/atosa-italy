@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: expo
 title: Atosa Italy - Expo
 permalink: /expo/
 ---
@@ -7,6 +7,66 @@ permalink: /expo/
 
 <div class="expo paddings-x scroll-fixer-controll">
   <div class="section-title"><a href="/expo/">expo</a></div>
+
+  <section class="cd-horizontal-timeline" style="margin-top: 50px; margin-bottom: 50px">
+  	<div class="timeline">
+  		<div class="events-wrapper">
+  			<div class="events">
+  				<ol>
+            {% for event in site.data.expo.events %}
+              {% if event.selected == true %}
+                <li><a href="#0" data-date="{{ event.date }}" class="selected">{{ event.date_short }}</a></li>
+              {% else %}
+                <li><a href="#0" data-date="{{ event.date }}">{{ event.date_short }}</a></li>
+              {% endif %}
+            {% endfor %}
+  					<!-- other dates here -->
+  				</ol>
+
+  				<span class="filling-line" aria-hidden="true"></span>
+  			</div> <!-- .events -->
+  		</div> <!-- .events-wrapper -->
+
+  		<ul class="cd-timeline-navigation">
+  			<li><a href="#0" class="prev inactive">Prev</a></li>
+  			<li><a href="#0" class="next">Next</a></li>
+  		</ul> <!-- .cd-timeline-navigation -->
+  	</div> <!-- .timeline -->
+
+  	<div class="events-content">
+  		<ol>
+        {% for event in site.data.expo.events %}
+          {% if event.selected == true %}
+      			<li class="selected" data-date="{{ event.date }}">
+              <a href="{{ event.url }}"><img src="{{ event.img }}" alt=""></a>
+      				<a href="{{ event.url }}"><h2>{{ event.name }}</h2></a>
+              <h3>{{ event.subtitle }}</h3>
+      				<em>{{ event.date_long }}</em>
+      				<p>
+      					{{ event.description }}
+      				</p>
+      			</li>
+          {% else %}
+            <li data-date="{{ event.date }}">
+              <a href="{{ event.url }}"><img src="{{ event.img }}" alt=""></a>
+              <a href="{{ event.url }}"><h2>{{ event.name }}</h2></a>
+              <h3>{{ event.subtitle }}</h3>
+              <em>{{ event.date_long }}</em>
+              <p>
+                {{ event.description }}
+              </p>
+            </li>
+          {% endif %}
+        {% endfor %}
+
+  			<li data-date="28/02/2016">
+  				<!-- event description here -->
+  			</li>
+
+  			<!-- other descriptions here -->
+  		</ol>
+  	</div> <!-- .events-content -->
+  </section>
 </div>
 
 {% include footer.html %}

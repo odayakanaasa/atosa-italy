@@ -50,6 +50,27 @@
   <!-- Style Sheets -->
   <link rel="stylesheet" href="/assets/css/main.css">
 
+  <style media="screen">
+    *, *::after, *::before {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 62.5%;
+    }
+
+    body {
+        font-size: 1.6rem;
+        font-family: 'Roboto Mono', monospace; // variables inside partials > _variables.scss
+        color: #424242;
+        background-color: white;
+      }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+
   <!-- 404 Page Redirect -->
   
 
@@ -295,6 +316,118 @@
 
 <div class="expo paddings-x scroll-fixer-controll">
   <div class="section-title"><a href="/expo/">expo</a></div>
+
+  <section class="cd-horizontal-timeline" style="margin-top: 50px; margin-bottom: 50px">
+  	<div class="timeline">
+  		<div class="events-wrapper">
+  			<div class="events">
+  				<ol>
+            
+              
+                <li><a href="#0" data-date="11/01/2017">11 Jan</a></li>
+              
+            
+              
+                <li><a href="#0" data-date="20/10/2017" class="selected">20 Oct</a></li>
+              
+            
+              
+                <li><a href="#0" data-date="23/12/2017">23 Dec</a></li>
+              
+            
+              
+                <li><a href="#0" data-date="15/09/2018">15 Sep</a></li>
+              
+            
+              
+                <li><a href="#0" data-date="03/01/2019">03 Jan</a></li>
+              
+            
+  					<!-- other dates here -->
+  				</ol>
+
+  				<span class="filling-line" aria-hidden="true"></span>
+  			</div> <!-- .events -->
+  		</div> <!-- .events-wrapper -->
+
+  		<ul class="cd-timeline-navigation">
+  			<li><a href="#0" class="prev inactive">Prev</a></li>
+  			<li><a href="#0" class="next">Next</a></li>
+  		</ul> <!-- .cd-timeline-navigation -->
+  	</div> <!-- .timeline -->
+
+  	<div class="events-content">
+  		<ol>
+        
+          
+            <li data-date="11/01/2017">
+              <a href="/news/2017/10/07/"><img src="" alt=""></a>
+              <a href="/news/2017/10/07/"><h2>Prova 1</h2></a>
+              <h3>Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15</h3>
+              <em>11 Gennaio, 2017</em>
+              <p>
+                Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+              </p>
+            </li>
+          
+        
+          
+      			<li class="selected" data-date="20/10/2017">
+              <a href="/news/2017/10/07/"><img src="/assets/img/news/news-1.jpg" alt=""></a>
+      				<a href="/news/2017/10/07/"><h2>Host 2017 di Milano</h2></a>
+              <h3>Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15</h3>
+      				<em>20 Ottobre, 2017</em>
+      				<p>
+      					Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+      				</p>
+      			</li>
+          
+        
+          
+            <li data-date="23/12/2017">
+              <a href="/news/2017/10/07/"><img src="" alt=""></a>
+              <a href="/news/2017/10/07/"><h2>Prova 2</h2></a>
+              <h3>Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15</h3>
+              <em>23 Dicembre, 2017</em>
+              <p>
+                Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+              </p>
+            </li>
+          
+        
+          
+            <li data-date="15/09/2018">
+              <a href="/news/2017/10/07/"><img src="" alt=""></a>
+              <a href="/news/2017/10/07/"><h2>Prova 3</h2></a>
+              <h3>Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15</h3>
+              <em>15 Settembre, 2018</em>
+              <p>
+                Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+              </p>
+            </li>
+          
+        
+          
+            <li data-date="03/01/2019">
+              <a href="/news/2017/10/07/"><img src="" alt=""></a>
+              <a href="/news/2017/10/07/"><h2>Prova 4</h2></a>
+              <h3>Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15</h3>
+              <em>03 Gennaio, 2019</em>
+              <p>
+                Ad Ottobre Atosa porta l'innovazione in Fiera! Scoprite la fiera e prenotate la vostra visita sul sito ufficiale di <a href="http://host.fieramilano.it/">Host Milano</a>.
+              </p>
+            </li>
+          
+        
+
+  			<li data-date="28/02/2016">
+  				<!-- event description here -->
+  			</li>
+
+  			<!-- other descriptions here -->
+  		</ol>
+  	</div> <!-- .events-content -->
+  </section>
 </div>
 
 <div class="section-divider margins-x" id="footer-divider"></div>
@@ -309,24 +442,24 @@
         <h5>Discover</h5>
         <ul>
           <li><a href="/about/">About</a></li>
-          <li><a href="/products/">Products</a></li>
-          <li><a href="#">Warranty</a></li>
-          <li><a href="#">Go Green with Atosa</a></li>
+          <li><a href="/products/">Prodotti</a></li>
+          <li><a href="/under-construction/">Warranty</a></li>
+          <li><a href="/under-construction/">Go Green with Atosa</a></li>
         </ul>
       </div>
       <div class="fast-links">
         <h5>Fast Links</h5>
         <div class="ul-links">
           <ul>
+            <li><a href="/products/">Prodotti</a></li>
             <li><a href="/news/">News</a></li>
-            <li><a href="/products/">Products</a></li>
-            <li><a href="/specials/">Specials</a></li>
-            <li><a href="/about/">About</a></li>
+            <li><a href="/under-construction/">Offerte</a></li>
+            <li><a href="/download/">Download</a></li>
           </ul>
           <ul>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/offers/">Offers</a></li>
             <li><a href="/expo/">Expo</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contatti</a></li>
             <li><a href="/sign-in/">Client Area</a></li>
           </ul>
         </div>
@@ -347,6 +480,9 @@
   <!-- <script src="/assets/js/lunr.js"></script>
   <script src="/assets/js/search.js"></script> -->
   <script type="text/javascript" src="/assets/js/functions.js"></script>
+  <script type="text/javascript" src="/assets/js/timeline.js">
+
+  </script>
   <script type="text/javascript">
     var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
 
