@@ -2,7 +2,7 @@
 layout: news
 title: Atosa all'Host 2017 di Milano
 subtitle: Dal 20 al 24 Ottobre - Fieramilano - Padiglione 2P Stand S15
-date: 2017-09-07
+date: 2017-10-07
 published: true
 img: /assets/img/news/news-1.jpg
 url: {{ page.url }}
