@@ -2,15 +2,15 @@
 
 /* TEAM */
 
-    Designer & Frontend Developer: Tommaso Negri
+    Tommaso Negri - Designer & Frontend Developer
     Email: tommaso.negri98@gmail.com
     Twitter: @tommaso_negri98
     Location: Milan, Italy
 
-    Backend Developer: Simone Chiri
+    Simone Chiri - Backend Developer
     Location: Milan, Italy
 
-    Backend Developer: Franco Marino
+    Franco Marino - Backend Developer
     Location: Milan, Italy
 
 /* THANKS */
@@ -31,7 +31,7 @@
 
 /* SITE */
 
-    Last update: 2017/09/27
+    Last update: 2017/10/16
     Standards: HTML5, CSS3, Javascript, PHP, MarkDown, Material Design
     Components: jQuery, Normalize, Jekyll, sass, Grunt, Node.js, Forestry.io, Bourbon
-    Software: Atom, Photoshop, Illustrator, Adobe XD, Github
+    Software: Atom, Github, Photoshop, Illustrator, Adobe XD
