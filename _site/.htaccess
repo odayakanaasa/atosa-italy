@@ -7,7 +7,7 @@ Header set Cache-Control "max-age=604800, public"
 
 # 12 Hour for css,js,ecc
 <filesMatch ".(js|css|json)$">
-Header set Cache-Control "max-age=604800, public"
+Header set Cache-Control "max-age=43200, public"
 </filesMatch>
 
 ## EXPIRES CACHING ##
