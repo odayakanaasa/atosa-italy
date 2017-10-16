@@ -638,6 +638,7 @@ a {
       .nav-main .nav-main-container .search-form .search-input {
         width: 500px;
         margin: 0 30px;
+        margin-left: 65px;
         font-family: "Roboto", sans-serif;
         -webkit-font-smoothing: antialiased;
         border: none;
@@ -671,6 +672,43 @@ a {
           color: #414549;
           font-size: 25px;
           line-height: 25px; }
+      .nav-main .nav-main-container .search-form .box-shadow-controll, .nav-main .nav-main-container .search-form .box-shadow-controll-2, .nav-main .nav-main-container .search-form .box-shadow-controll-3 {
+        margin: 0;
+        overflow: hidden;
+        position: absolute;
+        height: 500px;
+        width: 640px;
+        top: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 60px; }
+      .nav-main .nav-main-container .search-form #results-container, .nav-main .nav-main-container .search-form #results-container-2, .nav-main .nav-main-container .search-form #results-container-3 {
+        margin: 0 auto;
+        list-style: none;
+        width: 545px;
+        padding: 0px;
+        font-family: "Roboto", sans-serif;
+        background-color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 20px;
+        line-height: 26px;
+        color: black;
+        box-shadow: 0 0 35px rgba(0, 0, 0, 0.2), 0 0 35px rgba(0, 0, 0, 0.2); }
+        .nav-main .nav-main-container .search-form #results-container li a, .nav-main .nav-main-container .search-form #results-container-2 li a, .nav-main .nav-main-container .search-form #results-container-3 li a {
+          color: #424242; }
+      .nav-main .nav-main-container .search-form .box-shadow-controll-2, .nav-main .nav-main-container .search-form .box-shadow-controll-3 {
+        padding: 0;
+        width: 100%; }
+      .nav-main .nav-main-container .search-form #results-container-2, .nav-main .nav-main-container .search-form #results-container-3 {
+        margin: 0;
+        position: absolute;
+        margin-top: 0;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        border-radius: 0;
+        line-height: 32px; }
 
 .side-bar {
   position: fixed;
@@ -832,11 +870,6 @@ a {
 .nav-scroll {
   background-color: white; }
 
-@media (min-width: 1224px) {
-  .nav-scroll {
-    background-color: rgba(255, 255, 255, 0.7) !important;
-    -webkit-backdrop-filter: saturate(1.8) blur(20px);
-    backdrop-filter: saturate(1.8) blur(20px) !important; } }
 @media (max-width: 640px) {
   #nav-mobile {
     display: block; }
@@ -976,16 +1009,11 @@ a {
     flex-wrap: wrap;
     align-content: flex-start; }
 
-@media (max-width: 768px) {
-  #divider-offers-home {
-    display: none; } }
 .specials-home {
   position: relative;
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 50px; }
-  .specials-home .section-title {
-    margin-bottom: 70px; }
   .specials-home .specials-home-container {
     width: 100%;
     max-width: 1216px;
@@ -1180,6 +1208,9 @@ a {
   .news .news-container .post-container .post-content-container {
     max-width: 70%; } }
 @media (max-width: 768px) {
+  #divider-news-home {
+    display: none; }
+
   .news-single:hover {
     box-shadow: none; }
 
@@ -1749,6 +1780,37 @@ a {
       flex-wrap: wrap;
       align-content: flex-start; }
 
+.front-banner {
+  position: relative;
+  max-width: 1216px;
+  margin: 20px auto; }
+  .front-banner .front-banner-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start; }
+    .front-banner .front-banner-container .front-banner-post-image {
+      width: 100%;
+      height: 700px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right center; }
+
+@media (max-width: 1024px) {
+  .front-banner .front-banner-container .front-banner-post-image {
+    height: 550px; } }
+@media (max-width: 768px) {
+  .front-banner .front-banner-container .front-banner-post-image {
+    height: 450px; } }
+@media (max-width: 640px) {
+  .front-banner .front-banner-container .front-banner-post-image {
+    height: 300px; } }
+@media (max-width: 530px) {
+  .front-banner .front-banner-container .front-banner-post-image {
+    height: 250px !important; } }
+@media (max-width: 321px) {
+  .front-banner .front-banner-container .front-banner-post-image {
+    height: 250px !important; } }
 .hide {
   display: none !important; }
 
