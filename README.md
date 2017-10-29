@@ -4,13 +4,7 @@
 #
 ![Atosa 2](http://atosa-italy.it/assets/img/atosa-screenshots/Atosa_Github_2.jpg)
 #
-![Atosa 3](http://atosa-italy.it/assets/img/atosa-screenshots/Atosa_Github_3.jpg)
-#
 ![Atosa 4](http://atosa-italy.it/assets/img/atosa-screenshots/Atosa_Github_4.jpg)
-#
-![Atosa 5](http://atosa-italy.it/assets/img/atosa-screenshots/Atosa_Github_5.jpg)
-#
-![Atosa 6](http://atosa-italy.it/assets/img/atosa-screenshots/Atosa_Github_6.jpg)
 
 ## The humans responsible & technology colophon
 
