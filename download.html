@@ -8,53 +8,6 @@ permalink: /download/
 <div class="download paddings-x scroll-fixer-controll">
   <div class="section-title"><a href="/download/">download</a></div>
   <div class="download-container">
-    <div class="download-row">
-      <h3>Manuali di Istruzioni</h3>
-      <div class="download-content">
-        {% for manual in site.data.download.manuals %}
-          <div class="product-card paddings-all">
-            <a href="{{ manual.url }}" target="_blank">
-              <div class="product-content-container">
-                <h2 style="margin-top: 5px">{{ manual.name }}</h2>
-                <p>{{ manual.subtitle }}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-
-    <!-- <div class="download-row">
-      <h3>Certificazioni CE</h3>
-      <div class="download-content">
-        {% for certification in site.data.download.certifications %}
-          <div class="product-card paddings-all">
-            <a href="{{ certification.url }}" target="_blank">
-              <div class="product-content-container">
-                <h2 style="margin-top: 5px">{{ certification.name }}</h2>
-                <p>{{ certification.subtitle }}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="download-row">
-      <h3>Garanzia</h3>
-      <div class="download-content">
-        {% for warrantie in site.data.download.warranties %}
-          <div class="product-card paddings-all">
-            <a href="{{ warrantie.url }}" target="_blank">
-              <div class="product-content-container">
-                <h2 style="margin-top: 5px">{{ warrantie.name }}</h2>
-                <p>{{ warrantie.subtitle }}</p>
-              </div>
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
 
     <div class="download-row">
       <h3>Cataloghi</h3>
@@ -70,7 +23,23 @@ permalink: /download/
           </div>
         {% endfor %}
       </div>
-    </div> -->
+    </div>
+
+    <div class="download-row">
+      <h3>Manuali di Istruzioni</h3>
+      <div class="download-content">
+        {% for manual in site.data.download.manuals %}
+          <div class="product-card paddings-all">
+            <a href="{{ manual.url }}" target="_blank">
+              <div class="product-content-container">
+                <h2 style="margin-top: 5px">{{ manual.name }}</h2>
+                <p>{{ manual.subtitle }}</p>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
 
   </div>
 </div>
