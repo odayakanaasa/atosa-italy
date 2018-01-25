@@ -1,12 +1,21 @@
 ---
 layout: default
 title: Atosa Italy - 404
+permalink: /404/
 ---
 
 {% include navbar.html %}
 
 <div class="not-found">
-  404
+  <div class="not-found-container">
+    <h1>Ci dispiace per l'inconveniente</h1>
+    <h3>La pagina è al momento irraggiungibile o inesistente</h3>
+    <a href="{{site.url}}">
+      <div class="not-found-btn">
+        <span>Home</span>
+      </div>
+    </a>
+  </div>
 </div>
 
 {% include footer.html %}

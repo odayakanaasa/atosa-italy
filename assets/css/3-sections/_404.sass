@@ -3,4 +3,28 @@
   display: block
   width: 100%
   height: 100vh
-  background-color: pink
+  background-color: inherit
+
+  .not-found-container
+    padding: 50px
+    padding-top: 100px
+    text-align: center
+
+    .not-found-btn
+      width: 120px
+      height: 40px
+      border-radius: 20px
+      border: solid 2px $color-link
+      margin: 0 auto
+      position: relative
+      margin-top: 100px
+
+      &:hover
+        border-color: $color-link-hover
+
+      span
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 20px

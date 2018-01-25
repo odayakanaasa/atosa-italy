@@ -1248,7 +1248,27 @@ a {
   display: block;
   width: 100%;
   height: 100vh;
-  background-color: pink; }
+  background-color: inherit; }
+  .not-found .not-found-container {
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center; }
+    .not-found .not-found-container .not-found-btn {
+      width: 120px;
+      height: 40px;
+      border-radius: 20px;
+      border: solid 2px #65AAFE;
+      margin: 0 auto;
+      position: relative;
+      margin-top: 100px; }
+      .not-found .not-found-container .not-found-btn:hover {
+        border-color: #0E7AFE; }
+      .not-found .not-found-container .not-found-btn span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px; }
 
 .about {
   max-width: 1216px;
@@ -1792,8 +1812,8 @@ a {
       width: 100%;
       height: 700px;
       background-repeat: no-repeat;
-      background-size: cover;
-      background-position: right center; }
+      background-size: contain;
+      background-position: center center; }
 
 @media (max-width: 1024px) {
   .front-banner .front-banner-container .front-banner-post-image {
